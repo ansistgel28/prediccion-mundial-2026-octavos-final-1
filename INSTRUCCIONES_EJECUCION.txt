@@ -1,0 +1,309 @@
+INSTRUCCIONES PARA DESCARGAR Y EJECUTAR EL PROYECTO
+Proyecto: Prediccion Mundial 2026 con modelos de regresion
+
+============================================================
+1. REQUISITOS PREVIOS
+============================================================
+
+Antes de ejecutar el proyecto se necesita tener instalado:
+
+- Python 3.10 o superior
+- Git
+- Visual Studio Code, opcional pero recomendado
+
+IMPORTANTE:
+Este proyecto usa librerias externas como pandas, numpy, scipy,
+scikit-learn, matplotlib y joblib. Por eso se debe crear un entorno
+virtual antes de ejecutar los scripts.
+
+El entorno virtual evita errores como:
+
+ModuleNotFoundError: No module named 'pandas'
+
+Tambien evita que las librerias se instalen directamente en el Python
+global del sistema.
+
+============================================================
+2. DESCARGAR EL REPOSITORIO DESDE GITHUB
+============================================================
+
+Abrir una terminal y ejecutar:
+
+git clone URL_DEL_REPOSITORIO
+
+Luego entrar a la carpeta del proyecto:
+
+cd prediccion-mundial-2026-regresion-contexto
+
+Nota:
+Reemplazar URL_DEL_REPOSITORIO por el enlace real del repositorio de GitHub.
+
+============================================================
+3. CREAR EL ENTORNO VIRTUAL
+============================================================
+
+Desde la carpeta principal del proyecto ejecutar:
+
+En Linux o macOS:
+
+python3 -m venv .venv
+
+En Windows:
+
+python -m venv .venv
+
+Esto creara una carpeta llamada .venv dentro del proyecto.
+
+IMPORTANTE:
+La carpeta .venv no se sube a GitHub. Cada persona que descargue el
+proyecto debe crear su propio entorno virtual.
+
+============================================================
+4. ACTIVAR EL ENTORNO VIRTUAL
+============================================================
+
+En Linux o macOS:
+
+source .venv/bin/activate
+
+En Windows PowerShell:
+
+.venv\Scripts\Activate.ps1
+
+En Windows CMD:
+
+.venv\Scripts\activate.bat
+
+Cuando el entorno virtual esta activado, normalmente aparece (.venv)
+al inicio de la linea de comandos.
+
+============================================================
+5. INSTALAR LAS LIBRERIAS DEL PROYECTO
+============================================================
+
+Con el entorno virtual activado, ejecutar:
+
+pip install -r requirements.txt
+
+Este comando instala todas las librerias necesarias:
+
+- numpy
+- pandas
+- scipy
+- scikit-learn
+- matplotlib
+- joblib
+
+Para comprobar que pandas quedo instalado correctamente, ejecutar:
+
+python -c "import pandas; print(pandas.__version__)"
+
+Si muestra una version de pandas, la instalacion fue correcta.
+
+============================================================
+6. EJECUTAR EL PROYECTO
+============================================================
+
+Los scripts deben ejecutarse desde la carpeta principal del proyecto y
+en el siguiente orden:
+
+1) Actualizar o preparar resultados historicos:
+
+python 00_actualizar_results_mundial.py
+
+2) Construir la data del modelo:
+
+python 01_construir_data_modelo.py
+
+3) Crear el contexto competitivo de fase de grupos:
+
+python 05_crear_contexto_grupos.py
+
+4) Entrenar modelos y generar predicciones:
+
+python 02_entrenar_predecir_modelos.py
+
+5) Visualizar la comparacion de modelos para un partido:
+
+python 03_visualizar_partido_modelos.py
+
+6) Mostrar el modelo final seleccionado:
+
+python 04_mostrar_modelo_final.py
+
+7) Predecir clasificados:
+
+python 06_predecir_clasificados.py
+
+IMPORTANTE:
+Aunque todos los scripts forman parte del pipeline, los archivos mas
+importantes para revisar los resultados finales son:
+
+- 03_visualizar_partido_modelos.py
+- 06_predecir_clasificados.py
+
+El archivo 03_visualizar_partido_modelos.py permite analizar un partido
+especifico. Muestra la comparacion entre modelos, las probabilidades de
+victoria, empate o derrota, el modelo ganador y los marcadores mas
+probables para el partido elegido.
+
+El archivo 06_predecir_clasificados.py utiliza las predicciones generadas
+para simular la fase de grupos. Con este script se obtienen las tablas
+finales predichas por grupo, los primeros y segundos lugares, los mejores
+terceros, los clasificados a 16avos y los cruces simulados.
+
+Por esa razon, despues de ejecutar el entrenamiento con
+02_entrenar_predecir_modelos.py, se recomienda revisar especialmente:
+
+python 03_visualizar_partido_modelos.py
+python 06_predecir_clasificados.py
+
+============================================================
+7. ARCHIVOS DE SALIDA
+============================================================
+
+Los resultados se guardan principalmente en la carpeta outputs/.
+
+Algunos archivos generados son:
+
+- competencia_modelos.csv
+- mejor_modelo.txt
+- predicciones_fixture.csv
+- predicciones_todos_modelos.csv
+- top10_marcadores.csv
+- top10_todos_modelos.csv
+- tabla_grupos_predicha.csv
+- clasificados_grupos.csv
+- clasificados_16avos.csv
+- graficos en formato .png
+
+Si algun script indica que falta un archivo en outputs/, se debe ejecutar
+primero el script anterior correspondiente.
+
+Por ejemplo:
+
+Si 03_visualizar_partido_modelos.py indica que falta
+outputs/predicciones_todos_modelos.csv, primero se debe ejecutar:
+
+python 02_entrenar_predecir_modelos.py
+
+============================================================
+8. CAMBIAR EL PARTIDO A VISUALIZAR
+============================================================
+
+En el archivo 03_visualizar_partido_modelos.py existe una variable:
+
+MATCH_ID = 65
+
+Esta variable se encuentra al inicio del archivo, en la seccion:
+
+CONFIGURACION
+
+Dentro del script aparece asi:
+
+# Cambia este numero segun el partido que quieras visualizar
+MATCH_ID = 65
+
+Para visualizar otro partido, se debe cambiar solamente el numero 65 por
+otro match_id disponible.
+
+Ejemplo:
+
+MATCH_ID = 10
+
+El match_id se puede revisar en:
+
+- outputs/predicciones_todos_modelos.csv, columna match_id
+- data/fixtures_modelo.csv, columna match_no
+
+Nota:
+En data/fixtures_modelo.csv el partido aparece como match_no. En las
+predicciones aparece como match_id. Para este proyecto ambos identifican
+el mismo partido.
+
+Si se revisa el archivo usando Python o pandas, recordar que los indices
+empiezan en 0. Por ejemplo, el partido con MATCH_ID = 65 puede aparecer
+en el indice 64 si se cuenta desde cero.
+
+Luego volver a ejecutar:
+
+python 03_visualizar_partido_modelos.py
+
+============================================================
+9. USO EN VISUAL STUDIO CODE
+============================================================
+
+Si se usa VS Code, es importante seleccionar el Python del entorno
+virtual del proyecto.
+
+Pasos:
+
+1) Abrir el proyecto en VS Code.
+2) Presionar Ctrl + Shift + P.
+3) Buscar: Python: Select Interpreter.
+4) Seleccionar el interprete de .venv.
+
+En Linux o macOS debe ser similar a:
+
+.venv/bin/python
+
+En Windows debe ser similar a:
+
+.venv\Scripts\python.exe
+
+Despues de seleccionar el interprete, si VS Code sigue mostrando errores
+de importacion, recargar la ventana:
+
+Ctrl + Shift + P
+Developer: Reload Window
+
+============================================================
+10. SOLUCION AL ERROR DE PANDAS
+============================================================
+
+Error posible:
+
+ModuleNotFoundError: No module named 'pandas'
+
+Causa:
+El script se esta ejecutando con un Python que no tiene pandas instalado,
+o no se activo el entorno virtual.
+
+Solucion:
+
+1) Activar el entorno virtual:
+
+Linux o macOS:
+source .venv/bin/activate
+
+Windows PowerShell:
+.venv\Scripts\Activate.ps1
+
+2) Instalar librerias:
+
+pip install -r requirements.txt
+
+3) Ejecutar nuevamente el script:
+
+python 03_visualizar_partido_modelos.py
+
+Otro mensaje posible en VS Code:
+
+La importacion "pandas" no se ha podido resolver desde el origen
+
+Causa:
+VS Code no esta usando el interprete del entorno virtual.
+
+Solucion:
+Seleccionar el interprete .venv desde:
+
+Ctrl + Shift + P
+Python: Select Interpreter
+
+Luego elegir:
+
+.venv/bin/python
+
+o, en Windows:
+
+.venv\Scripts\python.exe

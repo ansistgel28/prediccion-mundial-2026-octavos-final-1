@@ -1,0 +1,81 @@
+match_id,home_team,away_team,score,home_goals,away_goals,prob_score_percent,modelo_probabilistico,ranking_score
+89,Canada,Morocco,0-1,0,1,13.265,Poisson + Dixon-Coles,1
+89,Canada,Morocco,0-2,0,2,12.435,Poisson + Dixon-Coles,2
+89,Canada,Morocco,1-1,1,1,11.781,Poisson + Dixon-Coles,3
+89,Canada,Morocco,1-2,1,2,9.594,Poisson + Dixon-Coles,4
+89,Canada,Morocco,0-0,0,0,8.909,Poisson + Dixon-Coles,5
+89,Canada,Morocco,0-3,0,3,7.292,Poisson + Dixon-Coles,6
+89,Canada,Morocco,1-3,1,3,5.626,Poisson + Dixon-Coles,7
+89,Canada,Morocco,1-0,1,0,5.328,Poisson + Dixon-Coles,8
+89,Canada,Morocco,2-1,2,1,4.208,Poisson + Dixon-Coles,9
+89,Canada,Morocco,2-2,2,2,3.701,Poisson + Dixon-Coles,10
+90,Paraguay,France,0-2,0,2,13.263,Poisson + Dixon-Coles,1
+90,Paraguay,France,0-1,0,1,10.638,Poisson + Dixon-Coles,2
+90,Paraguay,France,0-3,0,3,10.389,Poisson + Dixon-Coles,3
+90,Paraguay,France,1-2,1,2,9.54,Poisson + Dixon-Coles,4
+90,Paraguay,France,1-1,1,1,8.768,Poisson + Dixon-Coles,5
+90,Paraguay,France,1-3,1,3,7.473,Poisson + Dixon-Coles,6
+90,Paraguay,France,0-4,0,4,6.104,Poisson + Dixon-Coles,7
+90,Paraguay,France,0-0,0,0,5.453,Poisson + Dixon-Coles,8
+90,Paraguay,France,1-4,1,4,4.39,Poisson + Dixon-Coles,9
+90,Paraguay,France,2-2,2,2,3.431,Poisson + Dixon-Coles,10
+91,Brazil,Norway,1-1,1,1,9.453,Poisson + Dixon-Coles,1
+91,Brazil,Norway,2-1,2,1,9.081,Poisson + Dixon-Coles,2
+91,Brazil,Norway,2-2,2,2,7.089,Poisson + Dixon-Coles,3
+91,Brazil,Norway,1-2,1,2,6.833,Poisson + Dixon-Coles,4
+91,Brazil,Norway,3-1,3,1,6.281,Poisson + Dixon-Coles,5
+91,Brazil,Norway,2-0,2,0,5.817,Poisson + Dixon-Coles,6
+91,Brazil,Norway,1-0,1,0,4.906,Poisson + Dixon-Coles,7
+91,Brazil,Norway,3-2,3,2,4.903,Poisson + Dixon-Coles,8
+91,Brazil,Norway,3-0,3,0,4.023,Poisson + Dixon-Coles,9
+91,Brazil,Norway,2-3,2,3,3.689,Poisson + Dixon-Coles,10
+92,Mexico,England,1-1,1,1,11.424,Poisson + Dixon-Coles,1
+92,Mexico,England,0-2,0,2,10.196,Poisson + Dixon-Coles,2
+92,Mexico,England,1-2,1,2,10.073,Poisson + Dixon-Coles,3
+92,Mexico,England,0-1,0,1,9.861,Poisson + Dixon-Coles,4
+92,Mexico,England,0-3,0,3,6.473,Poisson + Dixon-Coles,5
+92,Mexico,England,0-0,0,0,6.468,Poisson + Dixon-Coles,6
+92,Mexico,England,1-3,1,3,6.395,Poisson + Dixon-Coles,7
+92,Mexico,England,2-1,2,1,5.225,Poisson + Dixon-Coles,8
+92,Mexico,England,2-2,2,2,4.976,Poisson + Dixon-Coles,9
+92,Mexico,England,1-0,1,0,4.708,Poisson + Dixon-Coles,10
+93,Portugal,Spain,1-1,1,1,10.432,Poisson + Dixon-Coles,1
+93,Portugal,Spain,1-2,1,2,10.019,Poisson + Dixon-Coles,2
+93,Portugal,Spain,0-2,0,2,8.542,Poisson + Dixon-Coles,3
+93,Portugal,Spain,0-1,0,1,7.463,Poisson + Dixon-Coles,4
+93,Portugal,Spain,1-3,1,3,6.928,Poisson + Dixon-Coles,5
+93,Portugal,Spain,0-3,0,3,5.907,Poisson + Dixon-Coles,6
+93,Portugal,Spain,2-2,2,2,5.875,Poisson + Dixon-Coles,7
+93,Portugal,Spain,2-1,2,1,5.664,Poisson + Dixon-Coles,8
+93,Portugal,Spain,0-0,0,0,4.743,Poisson + Dixon-Coles,9
+93,Portugal,Spain,2-3,2,3,4.063,Poisson + Dixon-Coles,10
+94,United States,Belgium,1-2,1,2,9.793,Poisson + Dixon-Coles,1
+94,United States,Belgium,1-1,1,1,9.001,Poisson + Dixon-Coles,2
+94,United States,Belgium,0-2,0,2,7.92,Poisson + Dixon-Coles,3
+94,United States,Belgium,1-3,1,3,7.671,Poisson + Dixon-Coles,4
+94,United States,Belgium,0-3,0,3,6.204,Poisson + Dixon-Coles,5
+94,United States,Belgium,0-1,0,1,6.074,Poisson + Dixon-Coles,6
+94,United States,Belgium,2-2,2,2,6.055,Poisson + Dixon-Coles,7
+94,United States,Belgium,2-1,2,1,5.153,Poisson + Dixon-Coles,8
+94,United States,Belgium,2-3,2,3,4.743,Poisson + Dixon-Coles,9
+94,United States,Belgium,1-4,1,4,4.507,Poisson + Dixon-Coles,10
+95,Argentina,Egypt,2-0,2,0,13.552,Poisson + Dixon-Coles,1
+95,Argentina,Egypt,1-0,1,0,10.89,Poisson + Dixon-Coles,2
+95,Argentina,Egypt,3-0,3,0,10.616,Poisson + Dixon-Coles,3
+95,Argentina,Egypt,2-1,2,1,9.455,Poisson + Dixon-Coles,4
+95,Argentina,Egypt,1-1,1,1,8.691,Poisson + Dixon-Coles,5
+95,Argentina,Egypt,3-1,3,1,7.406,Poisson + Dixon-Coles,6
+95,Argentina,Egypt,4-0,4,0,6.237,Poisson + Dixon-Coles,7
+95,Argentina,Egypt,0-0,0,0,5.552,Poisson + Dixon-Coles,8
+95,Argentina,Egypt,4-1,4,1,4.351,Poisson + Dixon-Coles,9
+95,Argentina,Egypt,2-2,2,2,3.298,Poisson + Dixon-Coles,10
+96,Switzerland,Colombia,1-1,1,1,10.763,Poisson + Dixon-Coles,1
+96,Switzerland,Colombia,1-2,1,2,9.995,Poisson + Dixon-Coles,2
+96,Switzerland,Colombia,0-2,0,2,8.468,Poisson + Dixon-Coles,3
+96,Switzerland,Colombia,0-1,0,1,7.646,Poisson + Dixon-Coles,4
+96,Switzerland,Colombia,1-3,1,3,6.682,Poisson + Dixon-Coles,5
+96,Switzerland,Colombia,2-2,2,2,5.898,Poisson + Dixon-Coles,6
+96,Switzerland,Colombia,2-1,2,1,5.882,Poisson + Dixon-Coles,7
+96,Switzerland,Colombia,0-3,0,3,5.662,Poisson + Dixon-Coles,8
+96,Switzerland,Colombia,0-0,0,0,5.007,Poisson + Dixon-Coles,9
+96,Switzerland,Colombia,1-0,1,0,4.171,Poisson + Dixon-Coles,10

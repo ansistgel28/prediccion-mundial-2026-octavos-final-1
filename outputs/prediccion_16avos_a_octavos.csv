@@ -1,0 +1,17 @@
+match_id,date,round,home_team,away_team,lambda_home,lambda_away,prob_home_win_percent,prob_draw_percent,prob_away_win_percent,prob_adv_home_percent,prob_adv_away_percent,predicted_score,predicted_winner,final_score_used,final_winner,source,modelo_acerto_si_hay_resultado
+73,2026-06-28,16AVOS,South Africa,Canada,0.9511,1.4912,24.09,26.16,49.75,37.17,62.83,0-1,Canada,0-1,Canada,REAL_90_120,1
+74,2026-06-29,16AVOS,Brazil,Japan,1.4642,1.1438,44.49,25.94,29.56,57.46,42.54,1-1,Brazil,2-1,Brazil,REAL_90_120,1
+75,2026-06-29,16AVOS,Germany,Paraguay,2.3529,0.8146,71.68,17.09,11.23,80.23,19.77,2-0,Germany,1-1 pen 3-4,Paraguay,REAL_PENALES,0
+76,2026-06-29,16AVOS,Netherlands,Morocco,1.4243,1.192,42.37,26.09,31.54,55.41,44.59,1-1,Netherlands,1-1 pen 2-3,Morocco,REAL_PENALES,0
+77,2026-06-30,16AVOS,Ivory Coast,Norway,1.4322,1.6101,34.12,24.01,41.88,46.12,53.88,1-1,Norway,1-2,Norway,REAL_90_120,1
+78,2026-06-30,16AVOS,France,Sweden,2.6692,0.8325,76.25,14.52,9.23,83.51,16.49,2-0,France,3-0,France,REAL_90_120,1
+79,2026-06-30,16AVOS,Mexico,Ecuador,1.1401,0.741,45.08,31.11,23.82,60.63,39.37,1-0,Mexico,2-0,Mexico,REAL_90_120,1
+80,2026-07-01,16AVOS,England,DR Congo,2.1614,0.647,72.32,17.92,9.76,81.28,18.72,2-0,England,2-1,England,REAL_90_120,1
+81,2026-07-01,16AVOS,Belgium,Senegal,1.779,1.0321,54.88,23.29,21.83,66.53,33.47,1-1,Belgium,3-2,Belgium,REAL_90_120,1
+82,2026-07-01,16AVOS,United States,Bosnia and Herzegovina,1.9771,0.8328,64.15,20.85,15.0,74.57,25.43,1-0,United States,2-0,United States,REAL_90_120,1
+83,2026-07-02,16AVOS,Spain,Austria,2.1601,0.9669,64.6,19.6,15.8,74.4,25.6,2-0,Spain,3-0,Spain,REAL_90_120,1
+84,2026-07-02,16AVOS,Portugal,Croatia,1.8318,1.2763,50.45,22.87,26.69,61.88,38.12,1-1,Portugal,2-1,Portugal,REAL_90_120,1
+85,2026-07-02,16AVOS,Switzerland,Algeria,1.5473,0.9519,51.19,25.57,23.24,63.97,36.03,1-0,Switzerland,2-0,Switzerland,REAL_90_120,1
+86,2026-07-03,16AVOS,Australia,Egypt,1.2455,0.9635,42.72,28.68,28.6,57.06,42.94,1-0,Australia,1-1 pen 2-4,Egypt,REAL_PENALES,0
+87,2026-07-03,16AVOS,Argentina,Cape Verde,2.4664,0.5654,79.13,14.3,6.56,86.28,13.72,2-0,Argentina,3-2,Argentina,REAL_90_120,1
+88,2026-07-03,16AVOS,Colombia,Ghana,2.0538,0.8371,65.61,20.08,14.31,75.65,24.35,2-0,Colombia,1-0,Colombia,REAL_90_120,1

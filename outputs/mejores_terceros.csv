@@ -1,0 +1,13 @@
+group,position,team,played,wins,draws,losses,gf,ga,gd,points,yellow_cards,indirect_red_cards,direct_red_cards,fair_play_score,fifa_strength,source_real_matches,source_predicted_matches,classification_type,third_place_rank,advance
+F,3,Sweden,3,1,1,1,7,7,0,4,5,0,0,-5,1533.19,3,0,TERCERO_GRUPO,1,True
+L,3,Ghana,3,1,1,1,2,2,0,4,2,0,0,-2,1380.71,2,1,TERCERO_GRUPO,2,True
+E,3,Ecuador,3,1,1,1,2,2,0,4,5,0,0,-5,1570.76,3,0,TERCERO_GRUPO,3,True
+B,3,Bosnia and Herzegovina,3,1,1,1,5,6,-1,4,10,0,0,-10,1395.19,3,0,TERCERO_GRUPO,4,True
+D,3,Turkey,3,1,1,1,4,5,-1,4,3,0,0,-3,1579.47,2,1,TERCERO_GRUPO,5,True
+I,3,Senegal,3,1,0,2,7,5,2,3,2,0,0,-2,1667.66,2,1,TERCERO_GRUPO,6,True
+G,3,Iran,3,0,3,0,3,3,0,3,6,0,0,-6,1605.12,3,0,TERCERO_GRUPO,7,True
+A,3,South Korea,3,1,0,2,2,3,-1,3,4,0,0,-4,1612.55,3,0,TERCERO_GRUPO,8,True
+C,3,Scotland,3,1,0,2,1,4,-3,3,5,0,0,-5,1518.77,3,0,TERCERO_GRUPO,9,False
+H,3,Uruguay,3,0,2,1,3,4,-1,2,9,0,0,-9,1661.95,3,0,TERCERO_GRUPO,10,False
+K,3,DR Congo,3,0,2,1,2,3,-1,2,2,0,0,-2,1487.18,2,1,TERCERO_GRUPO,11,False
+J,3,Algeria,3,0,2,1,2,5,-3,2,1,0,0,-1,1559.24,1,2,TERCERO_GRUPO,12,False
