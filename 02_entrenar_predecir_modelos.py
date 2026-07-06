@@ -32,6 +32,7 @@ OUT_DIR = BASE_DIR / "outputs"
 
 ARCHIVO_DATA_MODELO = DATA_DIR / "data_modelo.csv"
 ARCHIVO_FIXTURES_MODELO = DATA_DIR / "fixtures_modelo.csv"
+ARCHIVO_FIXTURES_MODELO_ACTUALIZADO = DATA_DIR / "fixtures_modelo_actualizado.csv"
 ARCHIVO_CONTEXTO_GRUPOS = DATA_DIR / "fixtures_contexto_grupos.csv"
 
 OUT_DIR.mkdir(exist_ok=True)
@@ -54,6 +55,13 @@ VARIABLES = [
 
 MAX_GOLES = 8
 RHO_DIXON_COLES = -0.08
+
+
+def obtener_archivo_fixtures_modelo():
+    if ARCHIVO_FIXTURES_MODELO_ACTUALIZADO.exists():
+        return ARCHIVO_FIXTURES_MODELO_ACTUALIZADO
+
+    return ARCHIVO_FIXTURES_MODELO
 
 
 # 2. MODELOS CANDIDATOS
@@ -153,6 +161,43 @@ def resultado_real(home_score, away_score):
         return "D"
     else:
         return "A"
+
+
+def convertir_numero(valor):
+    numero = pd.to_numeric(valor, errors="coerce")
+
+    if pd.isna(numero):
+        return None
+
+    return float(numero)
+
+
+def obtener_clase_resultado_real(fila):
+    home_score = convertir_numero(fila.get("home_score", None))
+    away_score = convertir_numero(fila.get("away_score", None))
+
+    if home_score is None or away_score is None:
+        return None
+
+    if home_score != away_score:
+        return resultado_real(home_score, away_score)
+
+    pen_home = convertir_numero(fila.get("pen_home", None))
+    pen_away = convertir_numero(fila.get("pen_away", None))
+
+    if pen_home is None or pen_away is None:
+        return "D"
+
+    return resultado_real(pen_home, pen_away)
+
+
+def obtener_clase_salida(fila, clase_modelo):
+    clase_real = obtener_clase_resultado_real(fila)
+
+    if clase_real is None:
+        return clase_modelo, "PREDICHO_MODELO"
+
+    return clase_real, "RESULTADO_REAL"
 
 
 def obtener_top10(matriz, home_team, away_team, match_id):
@@ -433,10 +478,13 @@ def entrenar_modelo_final(data, mejor_modelo):
 # 8. PREDICCIÓN DEL FIXTURE
 
 def predecir_fixture(modelo_home, modelo_away):
-    if not ARCHIVO_FIXTURES_MODELO.exists():
+    archivo_fixtures = obtener_archivo_fixtures_modelo()
+
+    if not archivo_fixtures.exists():
         raise FileNotFoundError("Primero ejecuta: python 01_construir_data_modelo.py")
 
-    fixtures = pd.read_csv(ARCHIVO_FIXTURES_MODELO)
+    print("Usando fixtures:", archivo_fixtures)
+    fixtures = pd.read_csv(archivo_fixtures)
 
     fixtures["date"] = pd.to_datetime(fixtures["date"], errors="coerce")
 
@@ -462,11 +510,12 @@ def predecir_fixture(modelo_home, modelo_away):
 
         prob_home, prob_draw, prob_away = probabilidades_resultado(matriz)
 
-        clase = clase_por_probabilidades(
+        clase_modelo = clase_por_probabilidades(
             prob_home,
             prob_draw,
             prob_away
         )
+        clase, fuente_clase = obtener_clase_salida(fila, clase_modelo)
 
         if "match_no" in fixtures.columns and not pd.isna(fila["match_no"]):
             match_id = int(fila["match_no"])
@@ -488,6 +537,8 @@ def predecir_fixture(modelo_home, modelo_away):
             "prob_home_win_percent": prob_home * 100,
             "prob_draw_percent": prob_draw * 100,
             "prob_away_win_percent": prob_away * 100,
+            "model_predicted_class": clase_modelo,
+            "result_class_source": fuente_clase,
             "predicted_class": clase
         })
 
@@ -574,10 +625,13 @@ def entrenar_todos_los_modelos_finales(data, tabla_resultados):
 
 # PREDICCION DEL FIXTURE CON TODOS LOS MODELOS
 def predecir_fixture_todos_modelos(modelos_home, modelos_away, mejor_modelo):
-    if not ARCHIVO_FIXTURES_MODELO.exists():
+    archivo_fixtures = obtener_archivo_fixtures_modelo()
+
+    if not archivo_fixtures.exists():
         raise FileNotFoundError("Primero ejecuta: python 01_construir_data_modelo.py")
 
-    fixtures = pd.read_csv(ARCHIVO_FIXTURES_MODELO)
+    print("Usando fixtures:", archivo_fixtures)
+    fixtures = pd.read_csv(archivo_fixtures)
     contexto_grupos = cargar_contexto_grupos()
 
     fixtures["date"] = pd.to_datetime(fixtures["date"], errors="coerce")
@@ -625,11 +679,12 @@ def predecir_fixture_todos_modelos(modelos_home, modelos_away, mejor_modelo):
             
             prob_home, prob_draw, prob_away = probabilidades_resultado(matriz)
 
-            clase = clase_por_probabilidades(
+            clase_modelo = clase_por_probabilidades(
                 prob_home,
                 prob_draw,
                 prob_away
             )
+            clase, fuente_clase = obtener_clase_salida(fila, clase_modelo)
 
             if "match_no" in fixtures.columns and not pd.isna(fila["match_no"]):
                 match_id = int(fila["match_no"])
@@ -655,6 +710,8 @@ def predecir_fixture_todos_modelos(modelos_home, modelos_away, mejor_modelo):
                 "prob_home_win_percent": prob_home * 100,
                 "prob_draw_percent": prob_draw * 100,
                 "prob_away_win_percent": prob_away * 100,
+                "model_predicted_class": clase_modelo,
+                "result_class_source": fuente_clase,
                 "predicted_class": clase
             })
 

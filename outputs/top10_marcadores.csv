@@ -1,0 +1,961 @@
+match_id,rank,home_team,away_team,score,probability_percent,result,modelo,modelo_ganador_global
+1,1,Mexico,South Africa,2-0,12.656201065650535,Victoria Mexico,Regresion Lineal,True
+1,2,Mexico,South Africa,1-0,11.900286991724297,Victoria Mexico,Regresion Lineal,True
+1,3,Mexico,South Africa,1-1,10.405970873134738,Empate,Regresion Lineal,True
+1,4,Mexico,South Africa,2-1,9.623829269548398,Victoria Mexico,Regresion Lineal,True
+1,5,Mexico,South Africa,3-0,8.427546666632924,Victoria Mexico,Regresion Lineal,True
+1,6,Mexico,South Africa,0-0,7.113820542569119,Empate,Regresion Lineal,True
+1,7,Mexico,South Africa,3-1,6.408342429147251,Victoria Mexico,Regresion Lineal,True
+1,8,Mexico,South Africa,4-0,4.208818810430998,Victoria Mexico,Regresion Lineal,True
+1,9,Mexico,South Africa,0-1,4.052437591907135,Victoria South Africa,Regresion Lineal,True
+1,10,Mexico,South Africa,1-2,3.6633077008487738,Victoria South Africa,Regresion Lineal,True
+2,1,South Korea,Czech Republic,1-1,11.588206072305237,Empate,Regresion Lineal,True
+2,2,South Korea,Czech Republic,2-1,9.80090227625777,Victoria South Korea,Regresion Lineal,True
+2,3,South Korea,Czech Republic,2-0,8.658259045358442,Victoria South Korea,Regresion Lineal,True
+2,4,South Korea,Czech Republic,1-0,8.620493170034713,Victoria South Korea,Regresion Lineal,True
+2,5,South Korea,Czech Republic,1-2,6.072925341979637,Victoria Czech Republic,Regresion Lineal,True
+2,6,South Korea,Czech Republic,0-0,6.047023612295198,Empate,Regresion Lineal,True
+2,7,South Korea,Czech Republic,3-1,5.9682692107101225,Victoria South Korea,Regresion Lineal,True
+2,8,South Korea,Czech Republic,2-2,5.547170910776213,Empate,Regresion Lineal,True
+2,9,South Korea,Czech Republic,3-0,5.272455476262125,Victoria South Korea,Regresion Lineal,True
+2,10,South Korea,Czech Republic,0-1,5.015004557671356,Victoria Czech Republic,Regresion Lineal,True
+3,1,Canada,Bosnia and Herzegovina,1-1,11.348971820259361,Empate,Regresion Lineal,True
+3,2,Canada,Bosnia and Herzegovina,2-0,10.24653992440427,Victoria Canada,Regresion Lineal,True
+3,3,Canada,Bosnia and Herzegovina,1-0,10.01169431124911,Victoria Canada,Regresion Lineal,True
+3,4,Canada,Bosnia and Herzegovina,2-1,9.921694515337085,Victoria Canada,Regresion Lineal,True
+3,5,Canada,Bosnia and Herzegovina,0-0,6.587662802957395,Empate,Regresion Lineal,True
+3,6,Canada,Bosnia and Herzegovina,3-0,6.449693348177786,Victoria Canada,Regresion Lineal,True
+3,7,Canada,Bosnia and Herzegovina,3-1,6.245219126684083,Victoria Canada,Regresion Lineal,True
+3,8,Canada,Bosnia and Herzegovina,1-2,5.08758151959178,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+3,9,Canada,Bosnia and Herzegovina,2-2,4.803573829894253,Empate,Regresion Lineal,True
+3,10,Canada,Bosnia and Herzegovina,0-1,4.724136922126138,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+4,1,United States,Paraguay,1-1,11.344416454963428,Empate,Regresion Lineal,True
+4,2,United States,Paraguay,2-0,11.332834452824661,Victoria United States,Regresion Lineal,True
+4,3,United States,Paraguay,1-0,11.285036703394786,Victoria United States,Regresion Lineal,True
+4,4,United States,Paraguay,2-1,9.81752850634944,Victoria United States,Regresion Lineal,True
+4,5,United States,Paraguay,0-0,7.326985405965715,Empate,Regresion Lineal,True
+4,6,United States,Paraguay,3-0,7.061403866195319,Victoria United States,Regresion Lineal,True
+4,7,United States,Paraguay,3-1,6.117228133861921,Victoria United States,Regresion Lineal,True
+4,8,United States,Paraguay,0-1,4.779004246193075,Victoria Paraguay,Regresion Lineal,True
+4,9,United States,Paraguay,1-2,4.5497971696722255,Victoria Paraguay,Regresion Lineal,True
+4,10,United States,Paraguay,2-2,4.2524165677263825,Empate,Regresion Lineal,True
+5,1,Qatar,Switzerland,0-1,14.8354868589053,Victoria Switzerland,Regresion Lineal,True
+5,2,Qatar,Switzerland,0-2,13.376356006157808,Victoria Switzerland,Regresion Lineal,True
+5,3,Qatar,Switzerland,1-1,11.535461268170337,Empate,Regresion Lineal,True
+5,4,Qatar,Switzerland,0-0,10.056350048116242,Empate,Regresion Lineal,True
+5,5,Qatar,Switzerland,1-2,9.10598731139285,Victoria Switzerland,Regresion Lineal,True
+5,6,Qatar,Switzerland,0-3,7.602604366468276,Victoria Switzerland,Regresion Lineal,True
+5,7,Qatar,Switzerland,1-0,5.409718041370563,Victoria Qatar,Regresion Lineal,True
+5,8,Qatar,Switzerland,1-3,5.175491655779072,Victoria Switzerland,Regresion Lineal,True
+5,9,Qatar,Switzerland,2-1,3.635552630752282,Victoria Qatar,Regresion Lineal,True
+5,10,Qatar,Switzerland,0-4,3.240770120414396,Victoria Switzerland,Regresion Lineal,True
+6,1,Brazil,Morocco,1-1,13.350201317584828,Empate,Regresion Lineal,True
+6,2,Brazil,Morocco,1-0,10.285030038675218,Victoria Brazil,Regresion Lineal,True
+6,3,Brazil,Morocco,2-1,9.114771563757243,Victoria Brazil,Regresion Lineal,True
+6,4,Brazil,Morocco,0-0,8.633662059917759,Empate,Regresion Lineal,True
+6,5,Brazil,Morocco,2-0,8.312989104983195,Victoria Brazil,Regresion Lineal,True
+6,6,Brazil,Morocco,0-1,7.393186480236991,Victoria Morocco,Regresion Lineal,True
+6,7,Brazil,Morocco,1-2,6.776768360312935,Victoria Morocco,Regresion Lineal,True
+6,8,Brazil,Morocco,2-2,4.996942712800875,Empate,Regresion Lineal,True
+6,9,Brazil,Morocco,0-2,4.595268752200373,Victoria Morocco,Regresion Lineal,True
+6,10,Brazil,Morocco,3-1,4.480600872739901,Victoria Brazil,Regresion Lineal,True
+7,1,Haiti,Scotland,1-1,12.411959800918128,Empate,Regresion Lineal,True
+7,2,Haiti,Scotland,0-1,11.297940188177918,Victoria Scotland,Regresion Lineal,True
+7,3,Haiti,Scotland,0-2,10.270090165053077,Victoria Scotland,Regresion Lineal,True
+7,4,Haiti,Scotland,1-2,9.660821036070871,Victoria Scotland,Regresion Lineal,True
+7,5,Haiti,Scotland,0-0,8.186307987168082,Empate,Regresion Lineal,True
+7,6,Haiti,Scotland,1-0,5.916392883357975,Victoria Haiti,Regresion Lineal,True
+7,7,Haiti,Scotland,0-3,5.755465162972576,Victoria Scotland,Regresion Lineal,True
+7,8,Haiti,Scotland,1-3,5.414024417041832,Victoria Scotland,Regresion Lineal,True
+7,9,Haiti,Scotland,2-1,5.40538198322246,Victoria Haiti,Regresion Lineal,True
+7,10,Haiti,Scotland,2-2,4.543848281321643,Empate,Regresion Lineal,True
+8,1,Australia,Turkey,1-1,11.613298638439066,Empate,Regresion Lineal,True
+8,2,Australia,Turkey,1-0,10.284401355830525,Victoria Australia,Regresion Lineal,True
+8,3,Australia,Turkey,2-0,10.243827396648749,Victoria Australia,Regresion Lineal,True
+8,4,Australia,Turkey,2-1,9.88388820552568,Victoria Australia,Regresion Lineal,True
+8,5,Australia,Turkey,0-0,6.922584275545658,Empate,Regresion Lineal,True
+8,6,Australia,Turkey,3-0,6.277214641156085,Victoria Australia,Regresion Lineal,True
+8,7,Australia,Turkey,3-1,6.056651030216802,Victoria Australia,Regresion Lineal,True
+8,8,Australia,Turkey,1-2,5.187611153670202,Victoria Turkey,Regresion Lineal,True
+8,9,Australia,Turkey,0-1,4.989082068429116,Victoria Turkey,Regresion Lineal,True
+8,10,Australia,Turkey,2-2,4.768298130993946,Empate,Regresion Lineal,True
+9,1,Germany,Curacao,2-0,12.842156362891219,Victoria Germany,Regresion Lineal,True
+9,2,Germany,Curacao,3-0,12.695938808707544,Victoria Germany,Regresion Lineal,True
+9,3,Germany,Curacao,4-0,9.413539538045155,Victoria Germany,Regresion Lineal,True
+9,4,Germany,Curacao,1-0,8.264233404611067,Victoria Germany,Regresion Lineal,True
+9,5,Germany,Curacao,2-1,7.336849656729042,Victoria Germany,Regresion Lineal,True
+9,6,Germany,Curacao,3-1,7.253314136532435,Victoria Germany,Regresion Lineal,True
+9,7,Germany,Curacao,5-0,5.583815610299747,Victoria Germany,Regresion Lineal,True
+9,8,Germany,Curacao,4-1,5.378047298028907,Victoria Germany,Regresion Lineal,True
+9,9,Germany,Curacao,1-1,5.343370016516193,Empate,Regresion Lineal,True
+9,10,Germany,Curacao,0-0,3.3157302472286,Empate,Regresion Lineal,True
+10,1,Netherlands,Japan,1-1,9.969829069600005,Empate,Regresion Lineal,True
+10,2,Netherlands,Japan,2-1,9.90127395224408,Victoria Netherlands,Regresion Lineal,True
+10,3,Netherlands,Japan,2-0,9.466598015917723,Victoria Netherlands,Regresion Lineal,True
+10,4,Netherlands,Japan,1-0,8.087552934025021,Victoria Netherlands,Regresion Lineal,True
+10,5,Netherlands,Japan,3-1,7.079896971047132,Victoria Netherlands,Regresion Lineal,True
+10,6,Netherlands,Japan,3-0,6.769082336503408,Victoria Netherlands,Regresion Lineal,True
+10,7,Netherlands,Japan,2-2,5.177954409416384,Empate,Regresion Lineal,True
+10,8,Netherlands,Japan,0-0,4.852936070045723,Empate,Regresion Lineal,True
+10,9,Netherlands,Japan,1-2,4.827598040811519,Victoria Japan,Regresion Lineal,True
+10,10,Netherlands,Japan,4-1,3.796855437169407,Victoria Netherlands,Regresion Lineal,True
+11,1,Ivory Coast,Ecuador,1-1,14.525426317983698,Empate,Regresion Lineal,True
+11,2,Ivory Coast,Ecuador,0-0,12.857710215503282,Empate,Regresion Lineal,True
+11,3,Ivory Coast,Ecuador,1-0,12.032641015073771,Victoria Ivory Coast,Regresion Lineal,True
+11,4,Ivory Coast,Ecuador,0-1,11.012162777098737,Victoria Ecuador,Regresion Lineal,True
+11,5,Ivory Coast,Ecuador,2-1,7.482065330612156,Victoria Ivory Coast,Regresion Lineal,True
+11,6,Ivory Coast,Ecuador,2-0,7.2924359976064155,Victoria Ivory Coast,Regresion Lineal,True
+11,7,Ivory Coast,Ecuador,1-2,6.899601474290362,Victoria Ecuador,Regresion Lineal,True
+11,8,Ivory Coast,Ecuador,0-2,6.201227251422912,Victoria Ecuador,Regresion Lineal,True
+11,9,Ivory Coast,Ecuador,2-2,3.8383128511462457,Empate,Regresion Lineal,True
+11,10,Ivory Coast,Ecuador,3-1,2.774895295872449,Victoria Ivory Coast,Regresion Lineal,True
+12,1,Sweden,Tunisia,1-1,11.239683029895584,Empate,Regresion Lineal,True
+12,2,Sweden,Tunisia,2-1,8.579895107078046,Victoria Sweden,Regresion Lineal,True
+12,3,Sweden,Tunisia,1-2,8.098482454346419,Victoria Tunisia,Regresion Lineal,True
+12,4,Sweden,Tunisia,2-2,6.676599347507199,Empate,Regresion Lineal,True
+12,5,Sweden,Tunisia,1-0,5.85436394376439,Victoria Sweden,Regresion Lineal,True
+12,6,Sweden,Tunisia,2-0,5.51288134999046,Victoria Sweden,Regresion Lineal,True
+12,7,Sweden,Tunisia,0-1,5.479164230775259,Victoria Tunisia,Regresion Lineal,True
+12,8,Sweden,Tunisia,0-2,4.91158856850112,Victoria Tunisia,Regresion Lineal,True
+12,9,Sweden,Tunisia,0-0,4.888077555392853,Empate,Regresion Lineal,True
+12,10,Sweden,Tunisia,3-1,4.715658964217686,Victoria Sweden,Regresion Lineal,True
+13,1,Spain,Cape Verde,3-0,11.061584861526162,Victoria Spain,Regresion Lineal,True
+13,2,Spain,Cape Verde,2-0,10.998766545061365,Victoria Spain,Regresion Lineal,True
+13,3,Spain,Cape Verde,4-0,8.34357146872659,Victoria Spain,Regresion Lineal,True
+13,4,Spain,Cape Verde,3-1,7.850099477860985,Victoria Spain,Regresion Lineal,True
+13,5,Spain,Cape Verde,2-1,7.805519063801548,Victoria Spain,Regresion Lineal,True
+13,6,Spain,Cape Verde,1-0,6.876939750527805,Victoria Spain,Regresion Lineal,True
+13,7,Spain,Cape Verde,4-1,5.921200881255066,Victoria Spain,Regresion Lineal,True
+13,8,Spain,Cape Verde,1-1,5.588058110547528,Empate,Regresion Lineal,True
+13,9,Spain,Cape Verde,5-0,5.0347349480366335,Victoria Spain,Regresion Lineal,True
+13,10,Spain,Cape Verde,5-1,3.5730115242543854,Victoria Spain,Regresion Lineal,True
+14,1,Belgium,Egypt,2-0,11.070441176875399,Victoria Belgium,Regresion Lineal,True
+14,2,Belgium,Egypt,1-1,9.932435520793861,Empate,Regresion Lineal,True
+14,3,Belgium,Egypt,2-1,9.848581647014212,Victoria Belgium,Regresion Lineal,True
+14,4,Belgium,Egypt,1-0,9.60194768461159,Victoria Belgium,Regresion Lineal,True
+14,5,Belgium,Egypt,3-0,7.903425435874577,Victoria Belgium,Regresion Lineal,True
+14,6,Belgium,Egypt,3-1,7.031113706551402,Victoria Belgium,Regresion Lineal,True
+14,7,Belgium,Egypt,0-0,5.5624498019069435,Empate,Regresion Lineal,True
+14,8,Belgium,Egypt,2-2,4.380790201049675,Empate,Regresion Lineal,True
+14,9,Belgium,Egypt,4-0,4.231818720394003,Victoria Belgium,Regresion Lineal,True
+14,10,Belgium,Egypt,1-2,4.090823708651502,Victoria Egypt,Regresion Lineal,True
+15,1,Saudi Arabia,Uruguay,0-1,25.414676689573636,Victoria Uruguay,Regresion Lineal,True
+15,2,Saudi Arabia,Uruguay,0-2,20.825813557376826,Victoria Uruguay,Regresion Lineal,True
+15,3,Saudi Arabia,Uruguay,0-0,16.51573093782477,Empate,Regresion Lineal,True
+15,4,Saudi Arabia,Uruguay,0-3,11.178225206564097,Victoria Uruguay,Regresion Lineal,True
+15,5,Saudi Arabia,Uruguay,1-1,6.1013593160212,Empate,Regresion Lineal,True
+15,6,Saudi Arabia,Uruguay,1-2,4.548466332202856,Victoria Uruguay,Regresion Lineal,True
+15,7,Saudi Arabia,Uruguay,0-4,4.499922119167513,Victoria Uruguay,Regresion Lineal,True
+15,8,Saudi Arabia,Uruguay,1-0,3.0564604667842517,Victoria Saudi Arabia,Regresion Lineal,True
+15,9,Saudi Arabia,Uruguay,1-3,2.4413827035260502,Victoria Uruguay,Regresion Lineal,True
+15,10,Saudi Arabia,Uruguay,0-5,1.4491960005731308,Victoria Uruguay,Regresion Lineal,True
+16,1,Iran,New Zealand,2-0,12.089988907913435,Victoria Iran,Regresion Lineal,True
+16,2,Iran,New Zealand,1-0,10.94069279883329,Victoria Iran,Regresion Lineal,True
+16,3,Iran,New Zealand,1-1,10.16818079876279,Empate,Regresion Lineal,True
+16,4,Iran,New Zealand,2-1,9.733888143477738,Victoria Iran,Regresion Lineal,True
+16,5,Iran,New Zealand,3-0,8.333002082720753,Victoria Iran,Regresion Lineal,True
+16,6,Iran,New Zealand,3-1,6.709064068659243,Victoria Iran,Regresion Lineal,True
+16,7,Iran,New Zealand,0-0,6.408584060973395,Empate,Regresion Lineal,True
+16,8,Iran,New Zealand,4-0,4.307629492437595,Victoria Iran,Regresion Lineal,True
+16,9,Iran,New Zealand,2-2,3.918472511075646,Empate,Regresion Lineal,True
+16,10,Iran,New Zealand,0-1,3.800063639662475,Victoria New Zealand,Regresion Lineal,True
+17,1,France,Senegal,1-1,10.474242187881524,Empate,Regresion Lineal,True
+17,2,France,Senegal,2-1,9.91043160091368,Victoria France,Regresion Lineal,True
+17,3,France,Senegal,2-0,9.023266440333577,Victoria France,Regresion Lineal,True
+17,4,France,Senegal,1-0,8.05432062708563,Victoria France,Regresion Lineal,True
+17,5,France,Senegal,3-1,6.751418382669883,Victoria France,Regresion Lineal,True
+17,6,France,Senegal,3-0,6.147042769699346,Victoria France,Regresion Lineal,True
+17,7,France,Senegal,2-2,5.442411302262153,Empate,Regresion Lineal,True
+17,8,France,Senegal,1-2,5.325956897546921,Victoria Senegal,Regresion Lineal,True
+17,9,France,Senegal,0-0,5.096492669646951,Empate,Regresion Lineal,True
+17,10,France,Senegal,0-1,3.969555580417145,Victoria Senegal,Regresion Lineal,True
+18,1,Iraq,Norway,0-2,10.97239634830356,Victoria Norway,Regresion Lineal,True
+18,2,Iraq,Norway,1-1,10.38703031591247,Empate,Regresion Lineal,True
+18,3,Iraq,Norway,1-2,9.901218748547647,Victoria Norway,Regresion Lineal,True
+18,4,Iraq,Norway,0-1,9.888707142566327,Victoria Norway,Regresion Lineal,True
+18,5,Iraq,Norway,0-3,7.530628780123879,Victoria Norway,Regresion Lineal,True
+18,6,Iraq,Norway,1-3,6.795452925617577,Victoria Norway,Regresion Lineal,True
+18,7,Iraq,Norway,0-0,5.945829189048648,Empate,Regresion Lineal,True
+18,8,Iraq,Norway,2-2,4.467307304376972,Empate,Regresion Lineal,True
+18,9,Iraq,Norway,2-1,4.339351359581016,Victoria Iraq,Regresion Lineal,True
+18,10,Iraq,Norway,1-0,3.901663149429309,Victoria Iraq,Regresion Lineal,True
+19,1,Argentina,Algeria,2-0,15.790120362830459,Victoria Argentina,Regresion Lineal,True
+19,2,Argentina,Algeria,1-0,13.666250530592333,Victoria Argentina,Regresion Lineal,True
+19,3,Argentina,Algeria,3-0,11.64815569794789,Victoria Argentina,Regresion Lineal,True
+19,4,Argentina,Algeria,2-1,8.350142248004163,Victoria Argentina,Regresion Lineal,True
+19,5,Argentina,Algeria,1-1,8.149944358959624,Empate,Regresion Lineal,True
+19,6,Argentina,Algeria,0-0,7.05176557343931,Empate,Regresion Lineal,True
+19,7,Argentina,Algeria,4-0,6.444513786751531,Victoria Argentina,Regresion Lineal,True
+19,8,Argentina,Algeria,3-1,6.159785661528048,Victoria Argentina,Regresion Lineal,True
+19,9,Argentina,Algeria,4-1,3.407992187651258,Victoria Argentina,Regresion Lineal,True
+19,10,Argentina,Algeria,5-0,2.852417774940795,Victoria Argentina,Regresion Lineal,True
+20,1,Austria,Jordan,2-0,13.36180392957648,Victoria Austria,Regresion Lineal,True
+20,2,Austria,Jordan,1-0,10.673823774457578,Victoria Austria,Regresion Lineal,True
+20,3,Austria,Jordan,3-0,10.54765378315468,Victoria Austria,Regresion Lineal,True
+20,4,Austria,Jordan,2-1,9.038925180213223,Victoria Austria,Regresion Lineal,True
+20,5,Austria,Jordan,1-1,8.244389785831459,Empate,Regresion Lineal,True
+20,6,Austria,Jordan,3-1,7.135223198545318,Victoria Austria,Regresion Lineal,True
+20,7,Austria,Jordan,4-0,6.244647106539128,Victoria Austria,Regresion Lineal,True
+20,8,Austria,Jordan,0-0,5.375784775491488,Empate,Regresion Lineal,True
+20,9,Austria,Jordan,4-1,4.224347121865848,Victoria Austria,Regresion Lineal,True
+20,10,Austria,Jordan,2-2,3.0573030724034265,Empate,Regresion Lineal,True
+21,1,Portugal,DR Congo,2-0,10.858574376275293,Victoria Portugal,Regresion Lineal,True
+21,2,Portugal,DR Congo,2-1,9.594896422641947,Victoria Portugal,Regresion Lineal,True
+21,3,Portugal,DR Congo,1-1,8.744358676511638,Empate,Regresion Lineal,True
+21,4,Portugal,DR Congo,3-0,8.578624026116044,Victoria Portugal,Regresion Lineal,True
+21,5,Portugal,DR Congo,1-0,8.515249488068031,Victoria Portugal,Regresion Lineal,True
+21,6,Portugal,DR Congo,3-1,7.580277679840823,Victoria Portugal,Regresion Lineal,True
+21,7,Portugal,DR Congo,4-0,5.083042278246513,Victoria Portugal,Regresion Lineal,True
+21,8,Portugal,DR Congo,0-0,4.51380859809416,Empate,Regresion Lineal,True
+21,9,Portugal,DR Congo,4-1,4.491497915071126,Victoria Portugal,Regresion Lineal,True
+21,10,Portugal,DR Congo,2-2,4.239140156481864,Empate,Regresion Lineal,True
+22,1,England,Croatia,2-0,10.861793133376203,Victoria England,Regresion Lineal,True
+22,2,England,Croatia,1-1,10.117901386820268,Empate,Regresion Lineal,True
+22,3,England,Croatia,2-1,9.8889999722368,Victoria England,Regresion Lineal,True
+22,4,England,Croatia,1-0,9.540536807726788,Victoria England,Regresion Lineal,True
+22,5,England,Croatia,3-0,7.643564893477567,Victoria England,Regresion Lineal,True
+22,6,England,Croatia,3-1,6.958999503233482,Victoria England,Regresion Lineal,True
+22,7,England,Croatia,0-0,5.623638357683873,Empate,Regresion Lineal,True
+22,8,England,Croatia,2-2,4.501665574462215,Empate,Regresion Lineal,True
+22,9,England,Croatia,1-2,4.264690704479527,Victoria Croatia,Regresion Lineal,True
+22,10,England,Croatia,4-0,4.034146358022374,Victoria England,Regresion Lineal,True
+23,1,Ghana,Panama,1-1,13.746171546850059,Empate,Regresion Lineal,True
+23,2,Ghana,Panama,0-1,10.550665141024092,Victoria Panama,Regresion Lineal,True
+23,3,Ghana,Panama,0-0,9.42896444549028,Empate,Regresion Lineal,True
+23,4,Ghana,Panama,1-2,8.753594236279195,Victoria Panama,Regresion Lineal,True
+23,5,Ghana,Panama,1-0,8.235128098701981,Victoria Ghana,Regresion Lineal,True
+23,6,Ghana,Panama,0-2,7.956470873499763,Victoria Panama,Regresion Lineal,True
+23,7,Ghana,Panama,2-1,7.001545935733598,Victoria Ghana,Regresion Lineal,True
+23,8,Ghana,Panama,2-0,5.090208118447558,Victoria Ghana,Regresion Lineal,True
+23,9,Ghana,Panama,2-2,4.815288918396778,Empate,Regresion Lineal,True
+23,10,Ghana,Panama,1-3,4.013502704402443,Victoria Panama,Regresion Lineal,True
+24,1,Uzbekistan,Colombia,0-1,15.71987493711901,Victoria Colombia,Regresion Lineal,True
+24,2,Uzbekistan,Colombia,0-2,13.51808282992214,Victoria Colombia,Regresion Lineal,True
+24,3,Uzbekistan,Colombia,1-1,11.737917024368008,Empate,Regresion Lineal,True
+24,4,Uzbekistan,Colombia,0-0,11.04867551900169,Empate,Regresion Lineal,True
+24,5,Uzbekistan,Colombia,1-2,8.85631399518295,Victoria Colombia,Regresion Lineal,True
+24,6,Uzbekistan,Colombia,0-3,7.343609420003713,Victoria Colombia,Regresion Lineal,True
+24,7,Uzbekistan,Colombia,1-0,5.799384012917333,Victoria Uzbekistan,Regresion Lineal,True
+24,8,Uzbekistan,Colombia,1-3,4.811134219238307,Victoria Colombia,Regresion Lineal,True
+24,9,Uzbekistan,Colombia,2-1,3.560206482279286,Victoria Uzbekistan,Regresion Lineal,True
+24,10,Uzbekistan,Colombia,0-4,2.992025570049597,Victoria Colombia,Regresion Lineal,True
+25,1,Czech Republic,South Africa,1-1,11.459485703140157,Empate,Regresion Lineal,True
+25,2,Czech Republic,South Africa,2-1,9.7484755643571,Victoria Czech Republic,Regresion Lineal,True
+25,3,Czech Republic,South Africa,2-0,8.267415690909766,Victoria Czech Republic,Regresion Lineal,True
+25,4,Czech Republic,South Africa,1-0,8.149738675746551,Victoria Czech Republic,Regresion Lineal,True
+25,5,Czech Republic,South Africa,1-2,6.255734501124211,Victoria South Africa,Regresion Lineal,True
+25,6,Czech Republic,South Africa,3-1,5.970913561856881,Victoria Czech Republic,Regresion Lineal,True
+25,7,Czech Republic,South Africa,2-2,5.747429389171664,Empate,Regresion Lineal,True
+25,8,Czech Republic,South Africa,0-0,5.746065076662648,Empate,Regresion Lineal,True
+25,9,Czech Republic,South Africa,3-0,5.063768600995308,Victoria Czech Republic,Regresion Lineal,True
+25,10,Czech Republic,South Africa,0-1,4.925671205857137,Victoria South Africa,Regresion Lineal,True
+26,1,Switzerland,Bosnia and Herzegovina,2-0,11.254211149537863,Victoria Switzerland,Regresion Lineal,True
+26,2,Switzerland,Bosnia and Herzegovina,1-1,10.585081807402487,Empate,Regresion Lineal,True
+26,3,Switzerland,Bosnia and Herzegovina,1-0,10.381786836578728,Victoria Switzerland,Regresion Lineal,True
+26,4,Switzerland,Bosnia and Herzegovina,2-1,9.878547057974599,Victoria Switzerland,Regresion Lineal,True
+26,5,Switzerland,Bosnia and Herzegovina,3-0,7.562169537660781,Victoria Switzerland,Regresion Lineal,True
+26,6,Switzerland,Bosnia and Herzegovina,3-1,6.637803986930847,Victoria Switzerland,Regresion Lineal,True
+26,7,Switzerland,Bosnia and Herzegovina,0-0,6.3231882750656885,Empate,Regresion Lineal,True
+26,8,Switzerland,Bosnia and Herzegovina,2-2,4.335518975073867,Empate,Regresion Lineal,True
+26,9,Switzerland,Bosnia and Herzegovina,1-2,4.301485682145699,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+26,10,Switzerland,Bosnia and Herzegovina,0-1,4.077952371536851,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+27,1,Canada,Qatar,1-1,12.031065634771913,Empate,Regresion Lineal,True
+27,2,Canada,Qatar,1-0,10.946646570187271,Victoria Canada,Regresion Lineal,True
+27,3,Canada,Qatar,2-0,10.393069764515438,Victoria Canada,Regresion Lineal,True
+27,4,Canada,Qatar,2-1,9.780292455061684,Victoria Canada,Regresion Lineal,True
+27,5,Canada,Qatar,0-0,7.632912124848905,Empate,Regresion Lineal,True
+27,6,Canada,Qatar,3-0,6.0830877928643226,Victoria Canada,Regresion Lineal,True
+27,7,Canada,Qatar,3-1,5.724427815077079,Victoria Canada,Regresion Lineal,True
+27,8,Canada,Qatar,0-1,5.453038854149519,Victoria Qatar,Regresion Lineal,True
+27,9,Canada,Qatar,1-2,5.241533234636867,Victoria Qatar,Regresion Lineal,True
+27,10,Canada,Qatar,2-2,4.601822304374583,Empate,Regresion Lineal,True
+28,1,Mexico,South Korea,1-1,13.070040964989243,Empate,Regresion Lineal,True
+28,2,Mexico,South Korea,1-0,10.899711987543554,Victoria Mexico,Regresion Lineal,True
+28,3,Mexico,South Korea,2-1,9.377404093386275,Victoria Mexico,Regresion Lineal,True
+28,4,Mexico,South Korea,2-0,9.196063645634062,Victoria Mexico,Regresion Lineal,True
+28,5,Mexico,South Korea,0-0,8.626111243140281,Empate,Regresion Lineal,True
+28,6,Mexico,South Korea,0-1,6.840818914398502,Victoria South Korea,Regresion Lineal,True
+28,7,Mexico,South Korea,1-2,6.170265624305533,Victoria South Korea,Regresion Lineal,True
+28,8,Mexico,South Korea,3-1,4.844185996943097,Victoria Mexico,Regresion Lineal,True
+28,9,Mexico,South Korea,2-2,4.781160228942422,Empate,Regresion Lineal,True
+28,10,Mexico,South Korea,3-0,4.7505090209983125,Victoria Mexico,Regresion Lineal,True
+29,1,United States,Australia,1-1,12.045728166591282,Empate,Regresion Lineal,True
+29,2,United States,Australia,2-1,9.54031994292784,Victoria United States,Regresion Lineal,True
+29,3,United States,Australia,1-0,8.311976883127027,Victoria United States,Regresion Lineal,True
+29,4,United States,Australia,2-0,7.8730350768271204,Victoria United States,Regresion Lineal,True
+29,5,United States,Australia,1-2,6.75771793012233,Victoria Australia,Regresion Lineal,True
+29,6,United States,Australia,0-0,6.272556653601638,Empate,Regresion Lineal,True
+29,7,United States,Australia,2-2,5.780344157320035,Empate,Regresion Lineal,True
+29,8,United States,Australia,0-1,5.627394688950103,Victoria Australia,Regresion Lineal,True
+29,9,United States,Australia,3-1,5.44033091361149,Victoria United States,Regresion Lineal,True
+29,10,United States,Australia,3-0,4.489568103443023,Victoria United States,Regresion Lineal,True
+30,1,Scotland,Morocco,0-1,17.135092124847414,Victoria Morocco,Regresion Lineal,True
+30,2,Scotland,Morocco,0-2,17.070079767596162,Victoria Morocco,Regresion Lineal,True
+30,3,Scotland,Morocco,0-3,10.920143884125052,Victoria Morocco,Regresion Lineal,True
+30,4,Scotland,Morocco,0-0,9.923002449649681,Empate,Regresion Lineal,True
+30,5,Scotland,Morocco,1-1,8.82772659520834,Empate,Regresion Lineal,True
+30,6,Scotland,Morocco,1-2,7.843487121411092,Victoria Morocco,Regresion Lineal,True
+30,7,Scotland,Morocco,0-4,5.239410597674671,Victoria Morocco,Regresion Lineal,True
+30,8,Scotland,Morocco,1-3,5.01766887356219,Victoria Morocco,Regresion Lineal,True
+30,9,Scotland,Morocco,1-0,3.605127803507687,Victoria Scotland,Regresion Lineal,True
+30,10,Scotland,Morocco,1-4,2.407443322242494,Victoria Morocco,Regresion Lineal,True
+31,1,Brazil,Haiti,2-0,17.6713277242551,Victoria Brazil,Regresion Lineal,True
+31,2,Brazil,Haiti,3-0,16.106062494096616,Victoria Brazil,Regresion Lineal,True
+31,3,Brazil,Haiti,1-0,12.59529977814914,Victoria Brazil,Regresion Lineal,True
+31,4,Brazil,Haiti,4-0,11.00958229249355,Victoria Brazil,Regresion Lineal,True
+31,5,Brazil,Haiti,5-0,6.020634890724669,Victoria Brazil,Regresion Lineal,True
+31,6,Brazil,Haiti,2-1,5.648129292048208,Victoria Brazil,Regresion Lineal,True
+31,7,Brazil,Haiti,3-1,5.147837489743614,Victoria Brazil,Regresion Lineal,True
+31,8,Brazil,Haiti,0-0,5.057842708686254,Empate,Regresion Lineal,True
+31,9,Brazil,Haiti,1-1,4.4618701514066075,Empate,Regresion Lineal,True
+31,10,Brazil,Haiti,4-1,3.5188948566720843,Victoria Brazil,Regresion Lineal,True
+32,1,Turkey,Paraguay,1-1,13.27771339313969,Empate,Regresion Lineal,True
+32,2,Turkey,Paraguay,1-0,8.919457903063826,Victoria Turkey,Regresion Lineal,True
+32,3,Turkey,Paraguay,2-1,8.761025760625305,Victoria Turkey,Regresion Lineal,True
+32,4,Turkey,Paraguay,0-0,7.931873657461994,Empate,Regresion Lineal,True
+32,5,Turkey,Paraguay,0-1,7.642558273722387,Victoria Paraguay,Regresion Lineal,True
+32,6,Turkey,Paraguay,1-2,7.631372188423267,Victoria Paraguay,Regresion Lineal,True
+32,7,Turkey,Paraguay,2-0,7.05702833374101,Victoria Turkey,Regresion Lineal,True
+32,8,Turkey,Paraguay,2-2,5.438236092333444,Empate,Regresion Lineal,True
+32,9,Turkey,Paraguay,0-2,5.3544789605899,Victoria Paraguay,Regresion Lineal,True
+32,10,Turkey,Paraguay,3-1,4.162163354193099,Victoria Turkey,Regresion Lineal,True
+33,1,Netherlands,Sweden,2-1,9.321253034471317,Victoria Netherlands,Regresion Lineal,True
+33,2,Netherlands,Sweden,2-0,8.579255920232542,Victoria Netherlands,Regresion Lineal,True
+33,3,Netherlands,Sweden,3-1,7.918412925982271,Victoria Netherlands,Regresion Lineal,True
+33,4,Netherlands,Sweden,1-1,7.900288408834285,Empate,Regresion Lineal,True
+33,5,Netherlands,Sweden,3-0,7.288085702946738,Victoria Netherlands,Regresion Lineal,True
+33,6,Netherlands,Sweden,1-0,6.147574883326294,Victoria Netherlands,Regresion Lineal,True
+33,7,Netherlands,Sweden,2-2,5.063711756618497,Empate,Regresion Lineal,True
+33,8,Netherlands,Sweden,4-1,5.0450242339590705,Victoria Netherlands,Regresion Lineal,True
+33,9,Netherlands,Sweden,4-0,4.643426572247848,Victoria Netherlands,Regresion Lineal,True
+33,10,Netherlands,Sweden,3-2,4.30162774025912,Victoria Netherlands,Regresion Lineal,True
+34,1,Germany,Ivory Coast,2-1,9.460111361655596,Victoria Germany,Regresion Lineal,True
+34,2,Germany,Ivory Coast,2-0,9.20707062719947,Victoria Germany,Regresion Lineal,True
+34,3,Germany,Ivory Coast,1-1,8.202201619075822,Empate,Regresion Lineal,True
+34,4,Germany,Ivory Coast,3-1,7.85587480221029,Victoria Germany,Regresion Lineal,True
+34,5,Germany,Ivory Coast,3-0,7.64574447141905,Victoria Germany,Regresion Lineal,True
+34,6,Germany,Ivory Coast,1-0,6.7839180997342705,Victoria Germany,Regresion Lineal,True
+34,7,Germany,Ivory Coast,4-1,4.892762348296659,Victoria Germany,Regresion Lineal,True
+34,8,Germany,Ivory Coast,2-2,4.860053245955536,Empate,Regresion Lineal,True
+34,9,Germany,Ivory Coast,4-0,4.761889874305444,Victoria Germany,Regresion Lineal,True
+34,10,Germany,Ivory Coast,3-2,4.035890104534734,Victoria Germany,Regresion Lineal,True
+35,1,Ecuador,Curacao,2-0,16.868758912594142,Victoria Ecuador,Regresion Lineal,True
+35,2,Ecuador,Curacao,3-0,15.938172357682944,Victoria Ecuador,Regresion Lineal,True
+35,3,Ecuador,Curacao,1-0,11.580201777092197,Victoria Ecuador,Regresion Lineal,True
+35,4,Ecuador,Curacao,4-0,11.294192095849201,Victoria Ecuador,Regresion Lineal,True
+35,5,Ecuador,Curacao,5-0,6.402680168605573,Victoria Ecuador,Regresion Lineal,True
+35,6,Ecuador,Curacao,2-1,5.708888766714313,Victoria Ecuador,Regresion Lineal,True
+35,7,Ecuador,Curacao,3-1,5.393950651983091,Victoria Ecuador,Regresion Lineal,True
+35,8,Ecuador,Curacao,0-0,4.521386529219803,Empate,Regresion Lineal,True
+35,9,Ecuador,Curacao,1-1,4.3503949884837985,Empate,Regresion Lineal,True
+35,10,Ecuador,Curacao,4-1,3.822289874388366,Victoria Ecuador,Regresion Lineal,True
+36,1,Tunisia,Japan,0-2,12.450086489390957,Victoria Japan,Regresion Lineal,True
+36,2,Tunisia,Japan,0-1,10.728268340213846,Victoria Japan,Regresion Lineal,True
+36,3,Tunisia,Japan,1-2,9.580826790528148,Victoria Japan,Regresion Lineal,True
+36,4,Tunisia,Japan,1-1,9.501210403920684,Empate,Regresion Lineal,True
+36,5,Tunisia,Japan,0-3,9.039177570003481,Victoria Japan,Regresion Lineal,True
+36,6,Tunisia,Japan,1-3,6.955999438303259,Victoria Japan,Regresion Lineal,True
+36,7,Tunisia,Japan,0-0,5.952432997333363,Empate,Regresion Lineal,True
+36,8,Tunisia,Japan,0-4,4.922058044235987,Victoria Japan,Regresion Lineal,True
+36,9,Tunisia,Japan,1-4,3.7877155002043374,Victoria Japan,Regresion Lineal,True
+36,10,Tunisia,Japan,2-2,3.686409812025019,Empate,Regresion Lineal,True
+37,1,Spain,Saudi Arabia,2-0,15.526636818694422,Victoria Spain,Regresion Lineal,True
+37,2,Spain,Saudi Arabia,3-0,14.876631516493987,Victoria Spain,Regresion Lineal,True
+37,3,Spain,Saudi Arabia,4-0,10.690378470004923,Victoria Spain,Regresion Lineal,True
+37,4,Spain,Saudi Arabia,1-0,10.44932057953122,Victoria Spain,Regresion Lineal,True
+37,5,Spain,Saudi Arabia,2-1,6.360370570576506,Victoria Spain,Regresion Lineal,True
+37,6,Spain,Saudi Arabia,5-0,6.1457026319559445,Victoria Spain,Regresion Lineal,True
+37,7,Spain,Saudi Arabia,3-1,6.094100763205435,Victoria Spain,Regresion Lineal,True
+37,8,Spain,Saudi Arabia,1-1,4.779557651606593,Empate,Regresion Lineal,True
+37,9,Spain,Saudi Arabia,4-1,4.379233532858626,Victoria Spain,Regresion Lineal,True
+37,10,Spain,Saudi Arabia,0-0,4.112505855438195,Empate,Regresion Lineal,True
+38,1,Belgium,Iran,1-1,11.112859223937646,Empate,Regresion Lineal,True
+38,2,Belgium,Iran,2-1,9.940067230454167,Victoria Belgium,Regresion Lineal,True
+38,3,Belgium,Iran,2-0,9.565183022824005,Victoria Belgium,Regresion Lineal,True
+38,4,Belgium,Iran,1-0,9.078439878503747,Victoria Belgium,Regresion Lineal,True
+38,5,Belgium,Iran,3-1,6.401552730898005,Victoria Belgium,Regresion Lineal,True
+38,6,Belgium,Iran,3-0,6.16012166534416,Victoria Belgium,Regresion Lineal,True
+38,7,Belgium,Iran,0-0,5.948114455951748,Empate,Regresion Lineal,True
+38,8,Belgium,Iran,1-2,5.346481877774654,Victoria Iran,Regresion Lineal,True
+38,9,Belgium,Iran,2-2,5.164822058824431,Empate,Regresion Lineal,True
+38,10,Belgium,Iran,0-1,4.502624554067669,Victoria Iran,Regresion Lineal,True
+39,1,Uruguay,Cape Verde,1-0,15.938813366720614,Victoria Uruguay,Regresion Lineal,True
+39,2,Uruguay,Cape Verde,2-0,15.312717225835051,Victoria Uruguay,Regresion Lineal,True
+39,3,Uruguay,Cape Verde,1-1,10.1400635036269,Empate,Regresion Lineal,True
+39,4,Uruguay,Cape Verde,0-0,9.846618983641633,Empate,Regresion Lineal,True
+39,5,Uruguay,Cape Verde,3-0,9.366099611495962,Victoria Uruguay,Regresion Lineal,True
+39,6,Uruguay,Cape Verde,2-1,8.614194789967488,Victoria Uruguay,Regresion Lineal,True
+39,7,Uruguay,Cape Verde,3-1,5.268915064894057,Victoria Uruguay,Regresion Lineal,True
+39,8,Uruguay,Cape Verde,0-1,4.365574766424589,Victoria Cape Verde,Regresion Lineal,True
+39,9,Uruguay,Cape Verde,4-0,4.296616040054949,Victoria Uruguay,Regresion Lineal,True
+39,10,Uruguay,Cape Verde,1-2,2.6408841445028886,Victoria Cape Verde,Regresion Lineal,True
+40,1,New Zealand,Egypt,0-1,14.191605999294287,Victoria Egypt,Regresion Lineal,True
+40,2,New Zealand,Egypt,0-2,13.828037674379514,Victoria Egypt,Regresion Lineal,True
+40,3,New Zealand,Egypt,1-1,10.772246967526163,Empate,Regresion Lineal,True
+40,4,New Zealand,Egypt,1-2,9.201412461005285,Victoria Egypt,Regresion Lineal,True
+40,5,New Zealand,Egypt,0-0,8.922257338645952,Empate,Regresion Lineal,True
+40,6,New Zealand,Egypt,0-3,8.504352393454685,Victoria Egypt,Regresion Lineal,True
+40,7,New Zealand,Egypt,1-3,5.658941342841355,Victoria Egypt,Regresion Lineal,True
+40,8,New Zealand,Egypt,1-0,4.60811249835444,Victoria New Zealand,Regresion Lineal,True
+40,9,New Zealand,Egypt,0-4,3.922682921564847,Victoria Egypt,Regresion Lineal,True
+40,10,New Zealand,Egypt,2-1,3.3185357081669546,Victoria New Zealand,Regresion Lineal,True
+41,1,Argentina,Austria,2-0,12.081964384894015,Victoria Argentina,Regresion Lineal,True
+41,2,Argentina,Austria,1-0,10.38063979266673,Victoria Argentina,Regresion Lineal,True
+41,3,Argentina,Austria,2-1,9.659385401752342,Victoria Argentina,Regresion Lineal,True
+41,4,Argentina,Austria,1-1,9.575577294293444,Empate,Regresion Lineal,True
+41,5,Argentina,Austria,3-0,8.77515054271563,Victoria Argentina,Regresion Lineal,True
+41,6,Argentina,Austria,3-1,7.01562745512348,Victoria Argentina,Regresion Lineal,True
+41,7,Argentina,Austria,0-0,5.798988000431281,Empate,Regresion Lineal,True
+41,8,Argentina,Austria,4-0,4.780054670389464,Victoria Argentina,Regresion Lineal,True
+41,9,Argentina,Austria,2-2,3.8612813019149095,Empate,Regresion Lineal,True
+41,10,Argentina,Austria,4-1,3.821596292773969,Victoria Argentina,Regresion Lineal,True
+42,1,France,Iraq,2-0,13.232340993237882,Victoria France,Regresion Lineal,True
+42,2,France,Iraq,3-0,12.90125849896536,Victoria France,Regresion Lineal,True
+42,3,France,Iraq,4-0,9.43384494146857,Victoria France,Regresion Lineal,True
+42,4,France,Iraq,1-0,8.646793434090858,Victoria France,Regresion Lineal,True
+42,5,France,Iraq,2-1,7.333426720135032,Victoria France,Regresion Lineal,True
+42,6,France,Iraq,3-1,7.149939216955676,Victoria France,Regresion Lineal,True
+42,7,France,Iraq,5-0,5.518682096746419,Victoria France,Regresion Lineal,True
+42,8,France,Iraq,1-1,5.415568579811213,Empate,Regresion Lineal,True
+42,9,France,Iraq,4-1,5.228282025284157,Victoria France,Regresion Lineal,True
+42,10,France,Iraq,0-0,3.4945340155664297,Empate,Regresion Lineal,True
+43,1,Norway,Senegal,1-1,9.788747074342556,Empate,Regresion Lineal,True
+43,2,Norway,Senegal,2-1,9.210134254125435,Victoria Norway,Regresion Lineal,True
+43,3,Norway,Senegal,2-2,6.6714945654086515,Empate,Regresion Lineal,True
+43,4,Norway,Senegal,1-2,6.565389970994932,Victoria Senegal,Regresion Lineal,True
+43,5,Norway,Senegal,2-0,6.357389048837423,Victoria Norway,Regresion Lineal,True
+43,6,Norway,Senegal,3-1,6.239320730328767,Victoria Norway,Regresion Lineal,True
+43,7,Norway,Senegal,1-0,5.531187666583335,Victoria Norway,Regresion Lineal,True
+43,8,Norway,Senegal,3-2,4.519542625080065,Victoria Norway,Regresion Lineal,True
+43,9,Norway,Senegal,3-0,4.306754732202648,Victoria Norway,Regresion Lineal,True
+43,10,Norway,Senegal,0-0,3.8034819214130655,Empate,Regresion Lineal,True
+44,1,Jordan,Algeria,1-1,11.793435331200909,Empate,Regresion Lineal,True
+44,2,Jordan,Algeria,0-1,11.656377962603546,Victoria Algeria,Regresion Lineal,True
+44,3,Jordan,Algeria,0-2,11.183999470997112,Victoria Algeria,Regresion Lineal,True
+44,4,Jordan,Algeria,1-2,9.746839798113609,Victoria Algeria,Regresion Lineal,True
+44,5,Jordan,Algeria,0-0,7.892545666046562,Empate,Regresion Lineal,True
+44,6,Jordan,Algeria,0-3,6.655077729342594,Victoria Algeria,Regresion Lineal,True
+44,7,Jordan,Algeria,1-3,5.799890874468433,Victoria Algeria,Regresion Lineal,True
+44,8,Jordan,Algeria,1-0,5.2434240971394175,Victoria Jordan,Regresion Lineal,True
+44,9,Jordan,Algeria,2-1,4.758315876173133,Victoria Jordan,Regresion Lineal,True
+44,10,Jordan,Algeria,2-2,4.247178582959174,Empate,Regresion Lineal,True
+45,1,Portugal,Uzbekistan,2-0,11.387751465433372,Victoria Portugal,Regresion Lineal,True
+45,2,Portugal,Uzbekistan,2-1,9.455662562924994,Victoria Portugal,Regresion Lineal,True
+45,3,Portugal,Uzbekistan,3-0,9.132000064733727,Victoria Portugal,Regresion Lineal,True
+45,4,Portugal,Uzbekistan,1-0,8.83826717503807,Victoria Portugal,Regresion Lineal,True
+45,5,Portugal,Uzbekistan,1-1,8.489781953557971,Empate,Regresion Lineal,True
+45,6,Portugal,Uzbekistan,3-1,7.582630460353592,Victoria Portugal,Regresion Lineal,True
+45,7,Portugal,Uzbekistan,4-0,5.492310670510614,Victoria Portugal,Regresion Lineal,True
+45,8,Portugal,Uzbekistan,0-0,4.564098158747953,Empate,Regresion Lineal,True
+45,9,Portugal,Uzbekistan,4-1,4.560464508620562,Victoria Portugal,Regresion Lineal,True
+45,10,Portugal,Uzbekistan,2-2,3.9256895786361774,Empate,Regresion Lineal,True
+46,1,England,Ghana,2-0,14.30978722016,Victoria England,Regresion Lineal,True
+46,2,England,Ghana,3-0,13.294834659849485,Victoria England,Regresion Lineal,True
+46,3,England,Ghana,1-0,9.844022741722004,Victoria England,Regresion Lineal,True
+46,4,England,Ghana,4-0,9.263902351237698,Victoria England,Regresion Lineal,True
+46,5,England,Ghana,2-1,7.3883245498666446,Victoria England,Regresion Lineal,True
+46,6,England,Ghana,3-1,6.864291676217224,Victoria England,Regresion Lineal,True
+46,7,England,Ghana,1-1,5.725701413180011,Empate,Regresion Lineal,True
+46,8,England,Ghana,5-0,5.164104043050295,Victoria England,Regresion Lineal,True
+46,9,England,Ghana,4-1,4.7830702243280125,Victoria England,Regresion Lineal,True
+46,10,England,Ghana,0-0,4.108138853037003,Empate,Regresion Lineal,True
+47,1,Panama,Croatia,1-1,12.57996859736725,Empate,Regresion Lineal,True
+47,2,Panama,Croatia,1-2,9.474110351668443,Victoria Croatia,Regresion Lineal,True
+47,3,Panama,Croatia,0-1,9.218194804491125,Victoria Croatia,Regresion Lineal,True
+47,4,Panama,Croatia,0-2,8.255636765682638,Victoria Croatia,Regresion Lineal,True
+47,5,Panama,Croatia,0-0,7.171428787122601,Empate,Regresion Lineal,True
+47,6,Panama,Croatia,2-1,6.683649523728253,Victoria Panama,Regresion Lineal,True
+47,7,Panama,Croatia,1-0,6.228647495666173,Victoria Panama,Regresion Lineal,True
+47,8,Panama,Croatia,2-2,5.436211009713022,Empate,Regresion Lineal,True
+47,9,Panama,Croatia,1-3,5.137239549353939,Victoria Croatia,Regresion Lineal,True
+47,10,Panama,Croatia,0-3,4.476534695449948,Victoria Croatia,Regresion Lineal,True
+48,1,Colombia,DR Congo,2-0,10.507907024997094,Victoria Colombia,Regresion Lineal,True
+48,2,Colombia,DR Congo,1-1,10.355612625231595,Empate,Regresion Lineal,True
+48,3,Colombia,DR Congo,2-1,9.932487683112061,Victoria Colombia,Regresion Lineal,True
+48,4,Colombia,DR Congo,1-0,9.37694062691961,Victoria Colombia,Regresion Lineal,True
+48,5,Colombia,DR Congo,3-0,7.256562777336415,Victoria Colombia,Regresion Lineal,True
+48,6,Colombia,DR Congo,3-1,6.859189012251783,Victoria Colombia,Regresion Lineal,True
+48,7,Colombia,DR Congo,0-0,5.663452515142409,Empate,Regresion Lineal,True
+48,8,Colombia,DR Congo,2-2,4.69428932614676,Empate,Regresion Lineal,True
+48,9,Colombia,DR Congo,1-2,4.531728248498423,Victoria DR Congo,Regresion Lineal,True
+48,10,Colombia,DR Congo,0-1,3.8611594947839425,Victoria DR Congo,Regresion Lineal,True
+49,1,Switzerland,Canada,1-1,11.851167414644866,Empate,Regresion Lineal,True
+49,2,Switzerland,Canada,2-1,9.105044294878557,Victoria Switzerland,Regresion Lineal,True
+49,3,Switzerland,Canada,1-2,7.549228602281881,Victoria Canada,Regresion Lineal,True
+49,4,Switzerland,Canada,1-0,7.097346766793124,Victoria Switzerland,Regresion Lineal,True
+49,5,Switzerland,Canada,2-0,6.61739209475548,Victoria Switzerland,Regresion Lineal,True
+49,6,Switzerland,Canada,2-2,6.263935280289891,Empate,Regresion Lineal,True
+49,7,Switzerland,Canada,0-1,5.734590249151047,Victoria Canada,Regresion Lineal,True
+49,8,Switzerland,Canada,0-0,5.683684272248171,Empate,Regresion Lineal,True
+49,9,Switzerland,Canada,3-1,5.036577129664409,Victoria Switzerland,Regresion Lineal,True
+49,10,Switzerland,Canada,0-2,4.54912526545719,Victoria Canada,Regresion Lineal,True
+50,1,Bosnia and Herzegovina,Qatar,1-1,12.133256663115427,Empate,Regresion Lineal,True
+50,2,Bosnia and Herzegovina,Qatar,2-1,9.235838830814162,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+50,3,Bosnia and Herzegovina,Qatar,1-0,7.69582418592978,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+50,4,Bosnia and Herzegovina,Qatar,1-2,7.342642862457885,Victoria Qatar,Regresion Lineal,True
+50,5,Bosnia and Herzegovina,Qatar,2-0,7.065576029800559,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+50,6,Bosnia and Herzegovina,Qatar,0-0,6.125996199556398,Empate,Regresion Lineal,True
+50,7,Bosnia and Herzegovina,Qatar,2-2,6.036359848722945,Empate,Regresion Lineal,True
+50,8,Bosnia and Herzegovina,Qatar,0-1,5.934074986900857,Victoria Qatar,Regresion Lineal,True
+50,9,Bosnia and Herzegovina,Qatar,3-1,5.0618328878693655,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+50,10,Bosnia and Herzegovina,Qatar,0-2,4.465804355335931,Victoria Qatar,Regresion Lineal,True
+51,1,Scotland,Brazil,0-1,16.243760289820592,Victoria Brazil,Regresion Lineal,True
+51,2,Scotland,Brazil,0-2,16.045209627130625,Victoria Brazil,Regresion Lineal,True
+51,3,Scotland,Brazil,0-3,10.126409878635014,Victoria Brazil,Regresion Lineal,True
+51,4,Scotland,Brazil,0-0,9.657085127300364,Empate,Regresion Lineal,True
+51,5,Scotland,Brazil,1-1,9.520709805826492,Empate,Regresion Lineal,True
+51,6,Scotland,Brazil,1-2,8.345395783209623,Victoria Brazil,Regresion Lineal,True
+51,7,Scotland,Brazil,1-3,5.266923914619226,Victoria Brazil,Regresion Lineal,True
+51,8,Scotland,Brazil,0-4,4.793214583033226,Victoria Brazil,Regresion Lineal,True
+51,9,Scotland,Brazil,1-0,3.9507755252293073,Victoria Scotland,Regresion Lineal,True
+51,10,Scotland,Brazil,1-4,2.4930352235240822,Victoria Brazil,Regresion Lineal,True
+52,1,Morocco,Haiti,2-0,20.759240588569618,Victoria Morocco,Regresion Lineal,True
+52,2,Morocco,Haiti,3-0,17.22381352941259,Victoria Morocco,Regresion Lineal,True
+52,3,Morocco,Haiti,1-0,16.393495511730737,Victoria Morocco,Regresion Lineal,True
+52,4,Morocco,Haiti,4-0,10.717868672637838,Victoria Morocco,Regresion Lineal,True
+52,5,Morocco,Haiti,0-0,6.988111137701236,Empate,Regresion Lineal,True
+52,6,Morocco,Haiti,5-0,5.33552961138354,Victoria Morocco,Regresion Lineal,True
+52,7,Morocco,Haiti,2-1,4.460847868290154,Victoria Morocco,Regresion Lineal,True
+52,8,Morocco,Haiti,1-1,3.8710791926229717,Empate,Regresion Lineal,True
+52,9,Morocco,Haiti,3-1,3.701137887905818,Victoria Morocco,Regresion Lineal,True
+52,10,Morocco,Haiti,4-1,2.3031084117439122,Victoria Morocco,Regresion Lineal,True
+53,1,Czech Republic,Mexico,1-1,13.8814048255344,Empate,Regresion Lineal,True
+53,2,Czech Republic,Mexico,0-1,9.555350035250857,Victoria Mexico,Regresion Lineal,True
+53,3,Czech Republic,Mexico,0-0,9.347850246930218,Empate,Regresion Lineal,True
+53,4,Czech Republic,Mexico,1-0,9.075402558951524,Victoria Czech Republic,Regresion Lineal,True
+53,5,Czech Republic,Mexico,1-2,8.175434333691653,Victoria Mexico,Regresion Lineal,True
+53,6,Czech Republic,Mexico,2-1,7.80469297498962,Victoria Czech Republic,Regresion Lineal,True
+53,7,Czech Republic,Mexico,0-2,6.731853868671276,Victoria Mexico,Regresion Lineal,True
+53,8,Czech Republic,Mexico,2-0,6.135142540194892,Victoria Czech Republic,Regresion Lineal,True
+53,9,Czech Republic,Mexico,2-2,4.964288281386639,Empate,Regresion Lineal,True
+53,10,Czech Republic,Mexico,1-3,3.466735803534963,Victoria Mexico,Regresion Lineal,True
+54,1,South Africa,South Korea,0-1,15.373334753177845,Victoria South Korea,Regresion Lineal,True
+54,2,South Africa,South Korea,0-2,12.855400698025957,Victoria South Korea,Regresion Lineal,True
+54,3,South Africa,South Korea,1-1,12.182656166330732,Empate,Regresion Lineal,True
+54,4,South Africa,South Korea,0-0,11.205487920859651,Empate,Regresion Lineal,True
+54,5,South Africa,South Korea,1-2,8.909692999722616,Victoria South Korea,Regresion Lineal,True
+54,6,South Africa,South Korea,0-3,6.769223712112405,Victoria South Korea,Regresion Lineal,True
+54,7,South Africa,South Korea,1-0,6.238329369818636,Victoria South Africa,Regresion Lineal,True
+54,8,South Africa,South Korea,1-3,4.69154610875922,Victoria South Korea,Regresion Lineal,True
+54,9,South Africa,South Korea,2-1,3.9089971871399927,Victoria South Africa,Regresion Lineal,True
+54,10,South Africa,South Korea,2-2,3.0875206154210337,Empate,Regresion Lineal,True
+55,1,Ecuador,Germany,0-1,15.552387137761132,Victoria Germany,Regresion Lineal,True
+55,2,Ecuador,Germany,0-2,14.377511435062754,Victoria Germany,Regresion Lineal,True
+55,3,Ecuador,Germany,1-1,10.897134023478856,Empate,Regresion Lineal,True
+55,4,Ecuador,Germany,0-0,10.114644897304315,Empate,Regresion Lineal,True
+55,5,Ecuador,Germany,1-2,8.867476555596348,Victoria Germany,Regresion Lineal,True
+55,6,Ecuador,Germany,0-3,8.423721009446295,Victoria Germany,Regresion Lineal,True
+55,7,Ecuador,Germany,1-3,5.195415694817939,Victoria Germany,Regresion Lineal,True
+55,8,Ecuador,Germany,1-0,4.933269301231827,Victoria Ecuador,Regresion Lineal,True
+55,9,Ecuador,Germany,0-4,3.701565947216224,Victoria Germany,Regresion Lineal,True
+55,10,Ecuador,Germany,2-1,3.1115362746017405,Victoria Ecuador,Regresion Lineal,True
+56,1,Curacao,Ivory Coast,0-2,14.981244851084934,Victoria Ivory Coast,Regresion Lineal,True
+56,2,Curacao,Ivory Coast,0-3,12.469110762502584,Victoria Ivory Coast,Regresion Lineal,True
+56,3,Curacao,Ivory Coast,0-1,11.481713250011055,Victoria Ivory Coast,Regresion Lineal,True
+56,4,Curacao,Ivory Coast,1-2,8.083078207061826,Victoria Ivory Coast,Regresion Lineal,True
+56,5,Curacao,Ivory Coast,0-4,7.783668417729883,Victoria Ivory Coast,Regresion Lineal,True
+56,6,Curacao,Ivory Coast,1-1,6.992326459792686,Empate,Regresion Lineal,True
+56,7,Curacao,Ivory Coast,1-3,6.727665055052193,Victoria Ivory Coast,Regresion Lineal,True
+56,8,Curacao,Ivory Coast,0-0,5.323689622441317,Empate,Regresion Lineal,True
+56,9,Curacao,Ivory Coast,1-4,4.199651042602876,Victoria Ivory Coast,Regresion Lineal,True
+56,10,Curacao,Ivory Coast,0-5,3.887077126260509,Victoria Ivory Coast,Regresion Lineal,True
+57,1,Japan,Sweden,2-1,9.531375671855715,Victoria Japan,Regresion Lineal,True
+57,2,Japan,Sweden,1-1,8.966034785062918,Empate,Regresion Lineal,True
+57,3,Japan,Sweden,2-0,7.702787755586082,Victoria Japan,Regresion Lineal,True
+57,4,Japan,Sweden,3-1,7.2953016077476605,Victoria Japan,Regresion Lineal,True
+57,5,Japan,Sweden,1-0,6.045022545557783,Victoria Japan,Regresion Lineal,True
+57,6,Japan,Sweden,2-2,5.8970287823496355,Empate,Regresion Lineal,True
+57,7,Japan,Sweden,3-0,5.895702974272274,Victoria Japan,Regresion Lineal,True
+57,8,Japan,Sweden,1-2,5.136346623661475,Victoria Sweden,Regresion Lineal,True
+57,9,Japan,Sweden,3-2,4.513577581863753,Victoria Japan,Regresion Lineal,True
+57,10,Japan,Sweden,4-1,4.187860234999291,Victoria Japan,Regresion Lineal,True
+58,1,Tunisia,Netherlands,0-2,12.87792957114342,Victoria Netherlands,Regresion Lineal,True
+58,2,Tunisia,Netherlands,0-3,10.550622821250485,Victoria Netherlands,Regresion Lineal,True
+58,3,Tunisia,Netherlands,0-1,9.89370900786857,Victoria Netherlands,Regresion Lineal,True
+58,4,Tunisia,Netherlands,1-2,8.992014128035725,Victoria Netherlands,Regresion Lineal,True
+58,5,Tunisia,Netherlands,1-1,7.902371182812224,Empate,Regresion Lineal,True
+58,6,Tunisia,Netherlands,1-3,7.366972225166234,Victoria Netherlands,Regresion Lineal,True
+58,7,Tunisia,Netherlands,0-4,6.482931202255824,Victoria Netherlands,Regresion Lineal,True
+58,8,Tunisia,Netherlands,0-0,4.848891857387057,Empate,Regresion Lineal,True
+58,9,Tunisia,Netherlands,1-4,4.526706613801745,Victoria Netherlands,Regresion Lineal,True
+58,10,Tunisia,Netherlands,0-5,3.1867993149015534,Victoria Netherlands,Regresion Lineal,True
+59,1,Turkey,United States,1-1,12.960835993677753,Empate,Regresion Lineal,True
+59,2,Turkey,United States,1-2,8.657320267256251,Victoria United States,Regresion Lineal,True
+59,3,Turkey,United States,0-1,8.085171839164824,Victoria United States,Regresion Lineal,True
+59,4,Turkey,United States,2-1,7.961020244703235,Victoria Turkey,Regresion Lineal,True
+59,5,Turkey,United States,1-0,7.357672303526186,Victoria Turkey,Regresion Lineal,True
+59,6,Turkey,United States,0-0,7.229311730967733,Empate,Regresion Lineal,True
+59,7,Turkey,United States,0-2,6.525202886695985,Victoria United States,Regresion Lineal,True
+59,8,Turkey,United States,2-2,5.74305469969809,Empate,Regresion Lineal,True
+59,9,Turkey,United States,2-0,5.517781620633571,Victoria Turkey,Regresion Lineal,True
+59,10,Turkey,United States,1-3,4.163575548476363,Victoria United States,Regresion Lineal,True
+60,1,Paraguay,Australia,1-1,13.350935931486784,Empate,Regresion Lineal,True
+60,2,Paraguay,Australia,0-1,11.486062343906783,Victoria Australia,Regresion Lineal,True
+60,3,Paraguay,Australia,0-0,9.373336157465152,Empate,Regresion Lineal,True
+60,4,Paraguay,Australia,0-2,9.280720591706574,Victoria Australia,Regresion Lineal,True
+60,5,Paraguay,Australia,1-2,9.196623008851908,Victoria Australia,Regresion Lineal,True
+60,6,Paraguay,Australia,1-0,7.319444381433791,Victoria Paraguay,Regresion Lineal,True
+60,7,Paraguay,Australia,2-1,6.124979604719723,Victoria Paraguay,Regresion Lineal,True
+60,8,Paraguay,Australia,0-3,4.602892865241606,Victoria Australia,Regresion Lineal,True
+60,9,Paraguay,Australia,1-3,4.561183586281984,Victoria Australia,Regresion Lineal,True
+60,10,Paraguay,Australia,2-2,4.556643739631851,Empate,Regresion Lineal,True
+61,1,Norway,France,1-2,9.563391031472847,Victoria France,Regresion Lineal,True
+61,2,Norway,France,1-1,9.532514698891887,Empate,Regresion Lineal,True
+61,3,Norway,France,0-2,7.4434415163505685,Victoria France,Regresion Lineal,True
+61,4,Norway,France,1-3,6.907944509403227,Victoria France,Regresion Lineal,True
+61,5,Norway,France,0-1,6.163711546143532,Victoria France,Regresion Lineal,True
+61,6,Norway,France,2-2,6.1435592541403,Empate,Regresion Lineal,True
+61,7,Norway,France,2-1,5.670114980646922,Victoria Norway,Regresion Lineal,True
+61,8,Norway,France,0-3,5.37663688379152,Victoria France,Regresion Lineal,True
+61,9,Norway,France,2-3,4.437690174768043,Victoria France,Regresion Lineal,True
+61,10,Norway,France,0-0,3.8763176887553366,Empate,Regresion Lineal,True
+62,1,Senegal,Iraq,2-0,10.273205762901652,Victoria Senegal,Regresion Lineal,True
+62,2,Senegal,Iraq,2-1,9.806895834621185,Victoria Senegal,Regresion Lineal,True
+62,3,Senegal,Iraq,1-1,9.403736642698167,Empate,Regresion Lineal,True
+62,4,Senegal,Iraq,1-0,8.424609025533716,Victoria Senegal,Regresion Lineal,True
+62,5,Senegal,Iraq,3-0,7.713821547256722,Victoria Senegal,Regresion Lineal,True
+62,6,Senegal,Iraq,3-1,7.363684340284863,Victoria Senegal,Regresion Lineal,True
+62,7,Senegal,Iraq,0-0,4.745745514708294,Empate,Regresion Lineal,True
+62,8,Senegal,Iraq,2-2,4.680876063945682,Empate,Regresion Lineal,True
+62,9,Senegal,Iraq,4-0,4.3440463646069,Victoria Senegal,Regresion Lineal,True
+62,10,Senegal,Iraq,1-2,4.155968837750867,Victoria Iraq,Regresion Lineal,True
+63,1,Cape Verde,Saudi Arabia,1-1,13.642654115940012,Empate,Regresion Lineal,True
+63,2,Cape Verde,Saudi Arabia,1-0,9.879925457308655,Victoria Cape Verde,Regresion Lineal,True
+63,3,Cape Verde,Saudi Arabia,0-0,8.913420647164223,Empate,Regresion Lineal,True
+63,4,Cape Verde,Saudi Arabia,2-1,8.703795809302473,Victoria Cape Verde,Regresion Lineal,True
+63,5,Cape Verde,Saudi Arabia,0-1,8.156101750898117,Victoria Saudi Arabia,Regresion Lineal,True
+63,6,Cape Verde,Saudi Arabia,2-0,7.503797375689773,Victoria Cape Verde,Regresion Lineal,True
+63,7,Cape Verde,Saudi Arabia,1-2,7.326097817238103,Victoria Saudi Arabia,Regresion Lineal,True
+63,8,Cape Verde,Saudi Arabia,0-2,5.316295791128258,Victoria Saudi Arabia,Regresion Lineal,True
+63,9,Cape Verde,Saudi Arabia,2-2,5.047848289151567,Empate,Regresion Lineal,True
+63,10,Cape Verde,Saudi Arabia,3-1,3.9980757270019143,Victoria Cape Verde,Regresion Lineal,True
+64,1,Uruguay,Spain,0-1,13.372558947172083,Victoria Spain,Regresion Lineal,True
+64,2,Uruguay,Spain,0-2,12.832907040816544,Victoria Spain,Regresion Lineal,True
+64,3,Uruguay,Spain,1-1,11.300736162923764,Empate,Regresion Lineal,True
+64,4,Uruguay,Spain,1-2,9.44984384097301,Victoria Spain,Regresion Lineal,True
+64,5,Uruguay,Spain,0-0,8.70413864863348,Empate,Regresion Lineal,True
+64,6,Uruguay,Spain,0-3,7.726368918398525,Victoria Spain,Regresion Lineal,True
+64,7,Uruguay,Spain,1-3,5.68951208828891,Victoria Spain,Regresion Lineal,True
+64,8,Uruguay,Spain,1-0,4.956012533314941,Victoria Uruguay,Regresion Lineal,True
+64,9,Uruguay,Spain,2-1,3.8525880035803852,Victoria Uruguay,Regresion Lineal,True
+64,10,Uruguay,Spain,0-4,3.4888885546347144,Victoria Spain,Regresion Lineal,True
+65,1,Egypt,Iran,1-1,14.308565919123753,Empate,Regresion Lineal,True
+65,2,Egypt,Iran,0-1,12.45043678971814,Victoria Iran,Regresion Lineal,True
+65,3,Egypt,Iran,0-0,12.136948201641875,Empate,Regresion Lineal,True
+65,4,Egypt,Iran,1-0,9.802628194737302,Victoria Egypt,Regresion Lineal,True
+65,5,Egypt,Iran,0-2,8.239059988239525,Victoria Iran,Regresion Lineal,True
+65,6,Egypt,Iran,1-2,8.079491770352792,Victoria Iran,Regresion Lineal,True
+65,7,Egypt,Iran,2-1,6.496040673044195,Victoria Egypt,Regresion Lineal,True
+65,8,Egypt,Iran,2-0,5.326072207210733,Victoria Egypt,Regresion Lineal,True
+65,9,Egypt,Iran,2-2,3.961506977760623,Empate,Regresion Lineal,True
+65,10,Egypt,Iran,0-3,3.349639703769876,Victoria Iran,Regresion Lineal,True
+66,1,New Zealand,Belgium,0-2,18.195682886549708,Victoria Belgium,Regresion Lineal,True
+66,2,New Zealand,Belgium,0-1,15.173674224292776,Victoria Belgium,Regresion Lineal,True
+66,3,New Zealand,Belgium,0-3,14.111438116078132,Victoria Belgium,Regresion Lineal,True
+66,4,New Zealand,Belgium,0-4,8.207964230258517,Victoria Belgium,Regresion Lineal,True
+66,5,New Zealand,Belgium,0-0,7.1904712144269105,Empate,Regresion Lineal,True
+66,6,New Zealand,Belgium,1-2,6.800602480231348,Victoria Belgium,Regresion Lineal,True
+66,7,New Zealand,Belgium,1-1,6.313598635938154,Empate,Regresion Lineal,True
+66,8,New Zealand,Belgium,1-3,5.274123628675164,Victoria Belgium,Regresion Lineal,True
+66,9,New Zealand,Belgium,0-5,3.819351436814554,Victoria Belgium,Regresion Lineal,True
+66,10,New Zealand,Belgium,1-4,3.0677112944855653,Victoria Belgium,Regresion Lineal,True
+67,1,Panama,England,0-2,20.939933160408394,Victoria England,Regresion Lineal,True
+67,2,Panama,England,0-1,20.697650729695024,Victoria England,Regresion Lineal,True
+67,3,Panama,England,0-3,13.833218778649492,Victoria England,Regresion Lineal,True
+67,4,Panama,England,0-0,11.096821216150406,Empate,Regresion Lineal,True
+67,5,Panama,England,0-4,6.85381635337973,Victoria England,Regresion Lineal,True
+67,6,Panama,England,1-1,5.860743118529135,Empate,Regresion Lineal,True
+67,7,Panama,England,1-2,5.377348014584958,Victoria England,Regresion Lineal,True
+67,8,Panama,England,1-3,3.552352864016469,Victoria England,Regresion Lineal,True
+67,9,Panama,England,0-5,2.716637355774778,Victoria England,Regresion Lineal,True
+67,10,Panama,England,1-0,2.3040365530710507,Victoria Panama,Regresion Lineal,True
+68,1,Croatia,Ghana,2-0,11.017383925568414,Victoria Croatia,Regresion Lineal,True
+68,2,Croatia,Ghana,1-1,10.224015248531257,Empate,Regresion Lineal,True
+68,3,Croatia,Ghana,2-1,9.885525594862072,Victoria Croatia,Regresion Lineal,True
+68,4,Croatia,Ghana,1-0,9.793248378266012,Victoria Croatia,Regresion Lineal,True
+68,5,Croatia,Ghana,3-0,7.669892137161829,Victoria Croatia,Regresion Lineal,True
+68,6,Croatia,Ghana,3-1,6.8819345448954055,Victoria Croatia,Regresion Lineal,True
+68,7,Croatia,Ghana,0-0,5.809114406231084,Empate,Regresion Lineal,True
+68,8,Croatia,Ghana,2-2,4.434973717303372,Empate,Regresion Lineal,True
+68,9,Croatia,Ghana,1-2,4.24706608381044,Victoria Ghana,Regresion Lineal,True
+68,10,Croatia,Ghana,4-0,4.004619821260913,Victoria Croatia,Regresion Lineal,True
+69,1,Colombia,Portugal,1-1,10.940357249321865,Empate,Regresion Lineal,True
+69,2,Colombia,Portugal,1-2,9.089090101778782,Victoria Portugal,Regresion Lineal,True
+69,3,Colombia,Portugal,2-1,7.370126455324375,Victoria Colombia,Regresion Lineal,True
+69,4,Colombia,Portugal,2-2,6.612833679772827,Empate,Regresion Lineal,True
+69,5,Colombia,Portugal,0-2,6.24630550825308,Victoria Portugal,Regresion Lineal,True
+69,6,Colombia,Portugal,0-1,6.151227139693621,Victoria Portugal,Regresion Lineal,True
+69,7,Colombia,Portugal,1-3,5.436780631275001,Victoria Portugal,Regresion Lineal,True
+69,8,Colombia,Portugal,1-0,4.834618062676051,Victoria Colombia,Regresion Lineal,True
+69,9,Colombia,Portugal,0-0,4.689826704035474,Empate,Regresion Lineal,True
+69,10,Colombia,Portugal,2-0,4.107071688013347,Victoria Colombia,Regresion Lineal,True
+70,1,DR Congo,Uzbekistan,1-0,13.322184782653904,Victoria DR Congo,Regresion Lineal,True
+70,2,DR Congo,Uzbekistan,1-1,13.043026834454851,Empate,Regresion Lineal,True
+70,3,DR Congo,Uzbekistan,2-0,10.843270027492858,Victoria DR Congo,Regresion Lineal,True
+70,4,DR Congo,Uzbekistan,0-0,10.380123698598615,Empate,Regresion Lineal,True
+70,5,DR Congo,Uzbekistan,2-1,9.165017189050428,Victoria DR Congo,Regresion Lineal,True
+70,6,DR Congo,Uzbekistan,0-1,6.990788066406993,Victoria Uzbekistan,Regresion Lineal,True
+70,7,DR Congo,Uzbekistan,3-0,5.485897204932148,Victoria DR Congo,Regresion Lineal,True
+70,8,DR Congo,Uzbekistan,1-2,5.103847006105699,Victoria Uzbekistan,Regresion Lineal,True
+70,9,DR Congo,Uzbekistan,3-1,4.636824689700365,Victoria DR Congo,Regresion Lineal,True
+70,10,DR Congo,Uzbekistan,2-2,3.873256861750004,Empate,Regresion Lineal,True
+71,1,Algeria,Austria,1-1,12.463262035776358,Empate,Regresion Lineal,True
+71,2,Algeria,Austria,0-1,11.368323630117057,Victoria Austria,Regresion Lineal,True
+71,3,Algeria,Austria,0-2,10.267781639616299,Victoria Austria,Regresion Lineal,True
+71,4,Algeria,Austria,1-2,9.640037246431252,Victoria Austria,Regresion Lineal,True
+71,5,Algeria,Austria,0-0,8.280278957434781,Empate,Regresion Lineal,True
+71,6,Algeria,Austria,1-0,5.984078142700935,Victoria Algeria,Regresion Lineal,True
+71,7,Algeria,Austria,0-3,5.718157409769167,Victoria Austria,Regresion Lineal,True
+71,8,Algeria,Austria,2-1,5.41726477331173,Victoria Algeria,Regresion Lineal,True
+71,9,Algeria,Austria,1-3,5.368564734416337,Victoria Austria,Regresion Lineal,True
+71,10,Algeria,Austria,2-2,4.525335723640039,Empate,Regresion Lineal,True
+72,1,Jordan,Argentina,0-2,25.35750708116524,Victoria Argentina,Regresion Lineal,True
+72,2,Jordan,Argentina,0-1,22.32918417332558,Victoria Argentina,Regresion Lineal,True
+72,3,Jordan,Argentina,0-3,19.12090018571357,Victoria Argentina,Regresion Lineal,True
+72,4,Jordan,Argentina,0-4,10.813626791321605,Victoria Argentina,Regresion Lineal,True
+72,5,Jordan,Argentina,0-0,10.000059465623231,Empate,Regresion Lineal,True
+72,6,Jordan,Argentina,0-5,4.8924275843187575,Victoria Argentina,Regresion Lineal,True
+72,7,Jordan,Argentina,0-6,1.8445744529649557,Victoria Argentina,Regresion Lineal,True
+72,8,Jordan,Argentina,1-2,1.2678753540582626,Victoria Argentina,Regresion Lineal,True
+72,9,Jordan,Argentina,1-1,1.2106184190357245,Empate,Regresion Lineal,True
+72,10,Jordan,Argentina,1-3,0.9560450092856789,Victoria Argentina,Regresion Lineal,True
+73,1,South Africa,Canada,8-8,7.875671581531147,Empate,Regresion Lineal,True
+73,2,South Africa,Canada,7-8,7.818114471044925,Victoria Canada,Regresion Lineal,True
+73,3,South Africa,Canada,6-8,6.790855750319263,Victoria Canada,Regresion Lineal,True
+73,4,South Africa,Canada,8-7,6.416867531349463,Victoria South Africa,Regresion Lineal,True
+73,5,South Africa,Canada,7-7,6.369971676227284,Empate,Regresion Lineal,True
+73,6,South Africa,Canada,6-7,5.53299122788328,Victoria Canada,Regresion Lineal,True
+73,7,South Africa,Canada,5-8,5.055920031332849,Victoria Canada,Regresion Lineal,True
+73,8,South Africa,Canada,8-6,4.574741966769706,Victoria South Africa,Regresion Lineal,True
+73,9,South Africa,Canada,7-6,4.5413087635055165,Victoria South Africa,Regresion Lineal,True
+73,10,South Africa,Canada,5-7,4.119416198897882,Victoria Canada,Regresion Lineal,True
+74,1,Brazil,Japan,8-7,12.790812059934566,Victoria Brazil,Regresion Lineal,True
+74,2,Brazil,Japan,8-8,12.235448880454816,Empate,Regresion Lineal,True
+74,3,Brazil,Japan,8-6,11.699960124648506,Victoria Brazil,Regresion Lineal,True
+74,4,Brazil,Japan,8-5,9.173263228341714,Victoria Brazil,Regresion Lineal,True
+74,5,Brazil,Japan,7-7,6.058701984369488,Empate,Regresion Lineal,True
+74,6,Brazil,Japan,8-4,5.993521727135948,Victoria Brazil,Regresion Lineal,True
+74,7,Brazil,Japan,7-8,5.795639718909471,Victoria Japan,Regresion Lineal,True
+74,8,Brazil,Japan,7-6,5.5419914929634615,Victoria Brazil,Regresion Lineal,True
+74,9,Brazil,Japan,7-5,4.345155558870898,Victoria Brazil,Regresion Lineal,True
+74,10,Brazil,Japan,8-3,3.1327828973807397,Victoria Brazil,Regresion Lineal,True
+75,1,Germany,Paraguay,8-8,17.246881253490827,Empate,Regresion Lineal,True
+75,2,Germany,Paraguay,8-7,15.360236636585814,Victoria Germany,Regresion Lineal,True
+75,3,Germany,Paraguay,8-6,11.969976357240771,Victoria Germany,Regresion Lineal,True
+75,4,Germany,Paraguay,8-5,7.995431174448213,Victoria Germany,Regresion Lineal,True
+75,5,Germany,Paraguay,7-8,7.489985816635693,Victoria Paraguay,Regresion Lineal,True
+75,6,Germany,Paraguay,7-7,6.6706526737933896,Empate,Regresion Lineal,True
+75,7,Germany,Paraguay,7-6,5.198328429556009,Victoria Germany,Regresion Lineal,True
+75,8,Germany,Paraguay,8-4,4.4505044508482605,Victoria Germany,Regresion Lineal,True
+75,9,Germany,Paraguay,7-5,3.472260591020356,Victoria Germany,Regresion Lineal,True
+75,10,Germany,Paraguay,6-8,2.84616104617714,Victoria Paraguay,Regresion Lineal,True
+76,1,Netherlands,Morocco,8-8,18.95731895669849,Empate,Regresion Lineal,True
+76,2,Netherlands,Morocco,8-7,14.12808073814642,Victoria Netherlands,Regresion Lineal,True
+76,3,Netherlands,Morocco,7-8,10.329998230790721,Victoria Morocco,Regresion Lineal,True
+76,4,Netherlands,Morocco,8-6,9.212923650995691,Victoria Netherlands,Regresion Lineal,True
+76,5,Netherlands,Morocco,7-7,7.698506806942371,Empate,Regresion Lineal,True
+76,6,Netherlands,Morocco,8-5,5.149499098723584,Victoria Netherlands,Regresion Lineal,True
+76,7,Netherlands,Morocco,7-6,5.020197488504445,Victoria Netherlands,Regresion Lineal,True
+76,8,Netherlands,Morocco,6-8,4.925287997231783,Victoria Morocco,Regresion Lineal,True
+76,9,Netherlands,Morocco,6-7,3.670606937745624,Victoria Morocco,Regresion Lineal,True
+76,10,Netherlands,Morocco,7-5,2.806004198208472,Victoria Netherlands,Regresion Lineal,True
+77,1,Ivory Coast,Norway,8-8,24.515223991350826,Empate,Regresion Lineal,True
+77,2,Ivory Coast,Norway,7-8,14.606603797327153,Victoria Norway,Regresion Lineal,True
+77,3,Ivory Coast,Norway,8-7,13.088615359045743,Victoria Ivory Coast,Regresion Lineal,True
+77,4,Ivory Coast,Norway,7-7,7.7984283917879775,Empate,Regresion Lineal,True
+77,5,Ivory Coast,Norway,6-8,7.615013644029688,Victoria Norway,Regresion Lineal,True
+77,6,Ivory Coast,Norway,8-6,6.114480967736714,Victoria Ivory Coast,Regresion Lineal,True
+77,7,Ivory Coast,Norway,6-7,4.065636299132093,Victoria Norway,Regresion Lineal,True
+77,8,Ivory Coast,Norway,7-6,3.643115843181267,Victoria Ivory Coast,Regresion Lineal,True
+77,9,Ivory Coast,Norway,5-8,3.402869801908344,Victoria Norway,Regresion Lineal,True
+77,10,Ivory Coast,Norway,8-5,2.448379307134231,Victoria Ivory Coast,Regresion Lineal,True
+78,1,France,Sweden,8-8,20.259754143924784,Empate,Regresion Lineal,True
+78,2,France,Sweden,8-7,16.87336194108661,Victoria France,Regresion Lineal,True
+78,3,France,Sweden,8-6,12.296375786487515,Victoria France,Regresion Lineal,True
+78,4,France,Sweden,7-8,7.933123253820665,Victoria Sweden,Regresion Lineal,True
+78,5,France,Sweden,8-5,7.680789130080624,Victoria France,Regresion Lineal,True
+78,6,France,Sweden,7-7,6.607111766215901,Empate,Regresion Lineal,True
+78,7,France,Sweden,7-6,4.814898739467331,Victoria France,Regresion Lineal,True
+78,8,France,Sweden,8-4,3.998096856961274,Victoria France,Regresion Lineal,True
+78,9,France,Sweden,7-5,3.0075708926510956,Victoria France,Regresion Lineal,True
+78,10,France,Sweden,6-8,2.718080318204873,Victoria Sweden,Regresion Lineal,True
+79,1,Mexico,Ecuador,8-6,6.85765209358664,Victoria Mexico,Regresion Lineal,True
+79,2,Mexico,Ecuador,8-7,6.465124142974197,Victoria Mexico,Regresion Lineal,True
+79,3,Mexico,Ecuador,8-5,6.234867645894286,Victoria Mexico,Regresion Lineal,True
+79,4,Mexico,Ecuador,7-6,5.4391968747754325,Victoria Mexico,Regresion Lineal,True
+79,5,Mexico,Ecuador,8-8,5.333181227619151,Empate,Regresion Lineal,True
+79,6,Mexico,Ecuador,7-7,5.127860462094201,Empate,Regresion Lineal,True
+79,7,Mexico,Ecuador,7-5,4.945230838686349,Victoria Mexico,Regresion Lineal,True
+79,8,Mexico,Ecuador,8-4,4.723868319082366,Victoria Mexico,Regresion Lineal,True
+79,9,Mexico,Ecuador,7-8,4.230051666372217,Victoria Ecuador,Regresion Lineal,True
+79,10,Mexico,Ecuador,6-6,3.774871407730888,Empate,Regresion Lineal,True
+80,1,England,DR Congo,8-5,8.265173728024614,Victoria England,Regresion Lineal,True
+80,2,England,DR Congo,8-6,8.13954293154513,Victoria England,Regresion Lineal,True
+80,3,England,DR Congo,8-4,6.9939529906605875,Victoria England,Regresion Lineal,True
+80,4,England,DR Congo,8-7,6.870704336177562,Victoria England,Regresion Lineal,True
+80,5,England,DR Congo,7-5,5.369231828699734,Victoria England,Regresion Lineal,True
+80,6,England,DR Congo,7-6,5.287619403683743,Victoria England,Regresion Lineal,True
+80,7,England,DR Congo,8-8,5.074702125556812,Empate,Regresion Lineal,True
+80,8,England,DR Congo,8-3,4.7346013569891205,Victoria England,Regresion Lineal,True
+80,9,England,DR Congo,7-4,4.5434199257732395,Victoria England,Regresion Lineal,True
+80,10,England,DR Congo,7-7,4.463354990628454,Empate,Regresion Lineal,True
+81,1,Belgium,Senegal,8-8,18.26242639983086,Empate,Regresion Lineal,True
+81,2,Belgium,Senegal,8-7,15.794108468057704,Victoria Belgium,Regresion Lineal,True
+81,3,Belgium,Senegal,8-6,11.951978599908122,Victoria Belgium,Regresion Lineal,True
+81,4,Belgium,Senegal,7-8,7.785381161403512,Victoria Senegal,Regresion Lineal,True
+81,5,Belgium,Senegal,8-5,7.752427399923774,Victoria Belgium,Regresion Lineal,True
+81,6,Belgium,Senegal,7-7,6.733122523605021,Empate,Regresion Lineal,True
+81,7,Belgium,Senegal,7-6,5.095199673690919,Victoria Belgium,Regresion Lineal,True
+81,8,Belgium,Senegal,8-4,4.190389209668241,Victoria Belgium,Regresion Lineal,True
+81,9,Belgium,Senegal,7-5,3.3049059808982415,Victoria Belgium,Regresion Lineal,True
+81,10,Belgium,Senegal,6-8,2.9040850700039402,Victoria Senegal,Regresion Lineal,True
+82,1,United States,Bosnia and Herzegovina,8-8,23.71544126740364,Empate,Regresion Lineal,True
+82,2,United States,Bosnia and Herzegovina,8-7,15.313143663474607,Victoria United States,Regresion Lineal,True
+82,3,United States,Bosnia and Herzegovina,7-8,11.93535830281731,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+82,4,United States,Bosnia and Herzegovina,8-6,8.651781783750847,Victoria United States,Regresion Lineal,True
+82,5,United States,Bosnia and Herzegovina,7-7,7.706702747180015,Empate,Regresion Lineal,True
+82,6,United States,Bosnia and Herzegovina,6-8,5.255908131082273,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+82,7,United States,Bosnia and Herzegovina,7-6,4.354214386421129,Victoria United States,Regresion Lineal,True
+82,8,United States,Bosnia and Herzegovina,8-5,4.189864398023305,Victoria United States,Regresion Lineal,True
+82,9,United States,Bosnia and Herzegovina,6-7,3.3937583275716374,Victoria Bosnia and Herzegovina,Regresion Lineal,True
+82,10,United States,Bosnia and Herzegovina,7-5,2.1086486338907116,Victoria United States,Regresion Lineal,True
+83,1,Spain,Austria,8-6,11.865927251508015,Victoria Spain,Regresion Lineal,True
+83,2,Spain,Austria,8-7,11.805013276333318,Victoria Spain,Regresion Lineal,True
+83,3,Spain,Austria,8-8,10.276360503736312,Empate,Regresion Lineal,True
+83,4,Spain,Austria,8-5,10.223276180010007,Victoria Spain,Regresion Lineal,True
+83,5,Spain,Austria,8-4,7.340020269625182,Victoria Spain,Regresion Lineal,True
+83,6,Spain,Austria,7-6,5.397545730214824,Victoria Spain,Regresion Lineal,True
+83,7,Spain,Austria,7-7,5.369837321116595,Empate,Regresion Lineal,True
+83,8,Spain,Austria,7-8,4.674487259479952,Victoria Austria,Regresion Lineal,True
+83,9,Spain,Austria,7-5,4.650340384246595,Victoria Spain,Regresion Lineal,True
+83,10,Spain,Austria,8-3,4.215939908880043,Victoria Spain,Regresion Lineal,True
+84,1,Portugal,Croatia,8-8,15.940511312887182,Empate,Regresion Lineal,True
+84,2,Portugal,Croatia,8-7,14.947878036606804,Victoria Portugal,Regresion Lineal,True
+84,3,Portugal,Croatia,8-6,12.26492499111699,Victoria Portugal,Regresion Lineal,True
+84,4,Portugal,Croatia,8-5,8.625880906363847,Victoria Portugal,Regresion Lineal,True
+84,5,Portugal,Croatia,7-8,6.840629808063037,Victoria Croatia,Regresion Lineal,True
+84,6,Portugal,Croatia,7-7,6.414656221336918,Empate,Regresion Lineal,True
+84,7,Portugal,Croatia,7-6,5.263307421014967,Victoria Portugal,Regresion Lineal,True
+84,8,Portugal,Croatia,8-4,5.055461099073289,Victoria Portugal,Regresion Lineal,True
+84,9,Portugal,Croatia,7-5,3.7016665833780547,Victoria Portugal,Regresion Lineal,True
+84,10,Portugal,Croatia,6-8,2.568608895028878,Victoria Croatia,Regresion Lineal,True
+85,1,Switzerland,Algeria,8-8,14.773704986917776,Empate,Regresion Lineal,True
+85,2,Switzerland,Algeria,8-7,13.109183305674732,Victoria Switzerland,Regresion Lineal,True
+85,3,Switzerland,Algeria,8-6,10.178174750830046,Victoria Switzerland,Regresion Lineal,True
+85,4,Switzerland,Algeria,7-8,8.068153367447454,Victoria Algeria,Regresion Lineal,True
+85,5,Switzerland,Algeria,7-7,7.159131817362191,Empate,Regresion Lineal,True
+85,6,Switzerland,Algeria,8-5,6.773566209896534,Victoria Switzerland,Regresion Lineal,True
+85,7,Switzerland,Algeria,7-6,5.558461805152811,Victoria Switzerland,Regresion Lineal,True
+85,8,Switzerland,Algeria,6-8,3.8553776094763554,Victoria Algeria,Regresion Lineal,True
+85,9,Switzerland,Algeria,8-4,3.7565018878679863,Victoria Switzerland,Regresion Lineal,True
+85,10,Switzerland,Algeria,7-5,3.6991513688948117,Victoria Switzerland,Regresion Lineal,True
+86,1,Australia,Egypt,8-8,8.501027300463598,Empate,Regresion Lineal,True
+86,2,Australia,Egypt,7-8,7.532673708151419,Victoria Egypt,Regresion Lineal,True
+86,3,Australia,Egypt,8-7,7.501985779562053,Victoria Australia,Regresion Lineal,True
+86,4,Australia,Egypt,7-7,6.647433191698038,Empate,Regresion Lineal,True
+86,5,Australia,Egypt,6-8,5.840297271082006,Victoria Egypt,Regresion Lineal,True
+86,6,Australia,Egypt,8-6,5.792807747420348,Victoria Australia,Regresion Lineal,True
+86,7,Australia,Egypt,6-7,5.153944991293336,Victoria Egypt,Regresion Lineal,True
+86,8,Australia,Egypt,7-6,5.132947945360613,Victoria Australia,Regresion Lineal,True
+86,9,Australia,Egypt,6-6,3.979721283487324,Empate,Regresion Lineal,True
+86,10,Australia,Egypt,5-8,3.8812709464480357,Victoria Egypt,Regresion Lineal,True
+87,1,Argentina,Cape Verde,8-6,10.594686756453381,Victoria Argentina,Regresion Lineal,True
+87,2,Argentina,Cape Verde,8-7,10.431234530013425,Victoria Argentina,Regresion Lineal,True
+87,3,Argentina,Cape Verde,8-5,9.22345731214981,Victoria Argentina,Regresion Lineal,True
+87,4,Argentina,Cape Verde,8-8,8.986516003848148,Empate,Regresion Lineal,True
+87,5,Argentina,Cape Verde,8-4,6.691417338446472,Victoria Argentina,Regresion Lineal,True
+87,6,Argentina,Cape Verde,7-6,5.631538792338922,Victoria Argentina,Regresion Lineal,True
+87,7,Argentina,Cape Verde,7-7,5.544656794310044,Empate,Regresion Lineal,True
+87,8,Argentina,Cape Verde,7-5,4.902670446694891,Victoria Argentina,Regresion Lineal,True
+87,9,Argentina,Cape Verde,7-8,4.776725791616196,Victoria Cape Verde,Regresion Lineal,True
+87,10,Argentina,Cape Verde,8-3,3.883582000279314,Victoria Argentina,Regresion Lineal,True
+88,1,Colombia,Ghana,8-8,14.807791436268278,Empate,Regresion Lineal,True
+88,2,Colombia,Ghana,8-7,12.956651849894923,Victoria Colombia,Regresion Lineal,True
+88,3,Colombia,Ghana,8-6,9.919809743179385,Victoria Colombia,Regresion Lineal,True
+88,4,Colombia,Ghana,7-8,8.283191310731953,Victoria Ghana,Regresion Lineal,True
+88,5,Colombia,Ghana,7-7,7.24769973166742,Empate,Regresion Lineal,True
+88,6,Colombia,Ghana,8-5,6.509791913234222,Victoria Colombia,Regresion Lineal,True
+88,7,Colombia,Ghana,7-6,5.548949161153556,Victoria Colombia,Regresion Lineal,True
+88,8,Colombia,Ghana,6-8,4.0542744853139165,Victoria Ghana,Regresion Lineal,True
+88,9,Colombia,Ghana,7-5,3.641451329352578,Victoria Colombia,Regresion Lineal,True
+88,10,Colombia,Ghana,8-4,3.559996936327945,Victoria Colombia,Regresion Lineal,True
+89,1,Canada,Morocco,8-8,9.915240585330185,Empate,Regresion Lineal,True
+89,2,Canada,Morocco,7-8,8.773603869819802,Victoria Morocco,Regresion Lineal,True
+89,3,Canada,Morocco,8-7,7.896625570310711,Victoria Canada,Regresion Lineal,True
+89,4,Canada,Morocco,7-7,6.987411355877747,Empate,Regresion Lineal,True
+89,5,Canada,Morocco,6-8,6.792987893415743,Victoria Morocco,Regresion Lineal,True
+89,6,Canada,Morocco,8-6,5.502852704724077,Victoria Canada,Regresion Lineal,True
+89,7,Canada,Morocco,6-7,5.410023230028516,Victoria Morocco,Regresion Lineal,True
+89,8,Canada,Morocco,7-6,4.86925651170246,Victoria Canada,Regresion Lineal,True
+89,9,Canada,Morocco,5-8,4.508134549767456,Victoria Morocco,Regresion Lineal,True
+89,10,Canada,Morocco,6-6,3.7700357828680877,Empate,Regresion Lineal,True
+90,1,Paraguay,France,8-8,17.863804661408047,Empate,Regresion Lineal,True
+90,2,Paraguay,France,7-8,14.091704679622746,Victoria France,Regresion Lineal,True
+90,3,Paraguay,France,6-8,9.726602281755623,Victoria France,Regresion Lineal,True
+90,4,Paraguay,France,8-7,9.55761387284793,Victoria Paraguay,Regresion Lineal,True
+90,5,Paraguay,France,7-7,7.539439368646937,Empate,Regresion Lineal,True
+90,6,Paraguay,France,5-8,5.754558287914065,Victoria France,Regresion Lineal,True
+90,7,Paraguay,France,6-7,5.203992691692053,Victoria France,Regresion Lineal,True
+90,8,Paraguay,France,8-6,4.474381946603075,Victoria Paraguay,Regresion Lineal,True
+90,9,Paraguay,France,7-6,3.529576717303641,Victoria Paraguay,Regresion Lineal,True
+90,10,Paraguay,France,5-7,3.078842786693591,Victoria France,Regresion Lineal,True
+91,1,Brazil,Norway,8-8,26.20010341071576,Empate,Regresion Lineal,True
+91,2,Brazil,Norway,8-7,15.57607644221746,Victoria Brazil,Regresion Lineal,True
+91,3,Brazil,Norway,7-8,12.830038442674367,Victoria Norway,Regresion Lineal,True
+91,4,Brazil,Norway,8-6,8.102540067847656,Victoria Brazil,Regresion Lineal,True
+91,5,Brazil,Norway,7-7,7.627514151640713,Empate,Regresion Lineal,True
+91,6,Brazil,Norway,6-8,5.4974458832300055,Victoria Norway,Regresion Lineal,True
+91,7,Brazil,Norway,7-6,3.967766803213347,Victoria Brazil,Regresion Lineal,True
+91,8,Brazil,Norway,8-5,3.6127467178614445,Victoria Brazil,Regresion Lineal,True
+91,9,Brazil,Norway,6-7,3.268255700056604,Victoria Norway,Regresion Lineal,True
+91,10,Brazil,Norway,5-8,2.019050485584594,Victoria Norway,Regresion Lineal,True
+92,1,Mexico,England,8-8,10.084149617687704,Empate,Regresion Lineal,True
+92,2,Mexico,England,7-8,9.502104083046083,Victoria England,Regresion Lineal,True
+92,3,Mexico,England,6-8,7.834446854679514,Victoria England,Regresion Lineal,True
+92,4,Mexico,England,8-7,7.307912316650003,Victoria Mexico,Regresion Lineal,True
+92,5,Mexico,England,7-7,6.88610801061334,Empate,Regresion Lineal,True
+92,6,Mexico,England,6-7,5.677568544106997,Victoria England,Regresion Lineal,True
+92,7,Mexico,England,5-8,5.536688684860656,Victoria England,Regresion Lineal,True
+92,8,Mexico,England,8-6,4.633993583593769,Victoria Mexico,Regresion Lineal,True
+92,9,Mexico,England,7-6,4.366524795927453,Victoria Mexico,Regresion Lineal,True
+92,10,Mexico,England,5-7,4.012399356171765,Victoria England,Regresion Lineal,True
+93,1,Portugal,Spain,8-8,18.403688127505877,Empate,Regresion Lineal,True
+93,2,Portugal,Spain,7-8,12.676686497616437,Victoria Spain,Regresion Lineal,True
+93,3,Portugal,Spain,8-7,11.508776316285854,Victoria Portugal,Regresion Lineal,True
+93,4,Portugal,Spain,7-7,7.927386528285002,Empate,Regresion Lineal,True
+93,5,Portugal,Spain,6-8,7.640375234290121,Victoria Spain,Regresion Lineal,True
+93,6,Portugal,Spain,8-6,6.29740299651127,Victoria Portugal,Regresion Lineal,True
+93,7,Portugal,Spain,6-7,4.77792108487832,Victoria Spain,Regresion Lineal,True
+93,8,Portugal,Spain,7-6,4.337728556517467,Victoria Portugal,Regresion Lineal,True
+93,9,Portugal,Spain,5-8,3.9470882506625586,Victoria Spain,Regresion Lineal,True
+93,10,Portugal,Spain,8-5,2.9535684080641955,Victoria Portugal,Regresion Lineal,True
+94,1,United States,Belgium,8-8,23.458044497128036,Empate,Regresion Lineal,True
+94,2,United States,Belgium,7-8,17.171439204389294,Victoria Belgium,Regresion Lineal,True
+94,3,United States,Belgium,6-8,10.998403291368586,Victoria Belgium,Regresion Lineal,True
+94,4,United States,Belgium,8-7,9.64076540724574,Victoria United States,Regresion Lineal,True
+94,5,United States,Belgium,7-7,7.057102184905796,Empate,Regresion Lineal,True
+94,6,United States,Belgium,5-8,6.038176375471526,Victoria Belgium,Regresion Lineal,True
+94,7,United States,Belgium,6-7,4.520113601086636,Victoria Belgium,Regresion Lineal,True
+94,8,United States,Belgium,8-6,3.4668837354626745,Victoria United States,Regresion Lineal,True
+94,9,United States,Belgium,4-8,2.7624899250842074,Victoria Belgium,Regresion Lineal,True
+94,10,United States,Belgium,7-6,2.537781156458791,Victoria United States,Regresion Lineal,True
+95,1,Argentina,Egypt,8-7,10.909600324492057,Victoria Argentina,Regresion Lineal,True
+95,2,Argentina,Egypt,8-6,10.739034101320609,Victoria Argentina,Regresion Lineal,True
+95,3,Argentina,Egypt,8-8,9.697516168826683,Empate,Regresion Lineal,True
+95,4,Argentina,Egypt,8-5,9.060972511686497,Victoria Argentina,Regresion Lineal,True
+95,5,Argentina,Egypt,8-4,6.370934766489079,Victoria Argentina,Regresion Lineal,True
+95,6,Argentina,Egypt,7-7,5.757096742433502,Empate,Regresion Lineal,True
+95,7,Argentina,Egypt,7-6,5.667087372834048,Victoria Argentina,Regresion Lineal,True
+95,8,Argentina,Egypt,7-8,5.117468750886407,Victoria Egypt,Regresion Lineal,True
+95,9,Argentina,Egypt,7-5,4.781558790306886,Victoria Argentina,Regresion Lineal,True
+95,10,Argentina,Egypt,8-3,3.583616195414735,Victoria Argentina,Regresion Lineal,True
+96,1,Switzerland,Colombia,8-8,19.371122179058357,Empate,Regresion Lineal,True
+96,2,Switzerland,Colombia,8-7,13.763587212471343,Victoria Switzerland,Regresion Lineal,True
+96,3,Switzerland,Colombia,7-8,11.022725709236386,Victoria Colombia,Regresion Lineal,True
+96,4,Switzerland,Colombia,8-6,8.556901856469993,Victoria Switzerland,Regresion Lineal,True
+96,5,Switzerland,Colombia,7-7,7.831877018577549,Empate,Regresion Lineal,True
+96,6,Switzerland,Colombia,6-8,5.48821698715836,Victoria Colombia,Regresion Lineal,True
+96,7,Switzerland,Colombia,7-6,4.86912328634692,Victoria Switzerland,Regresion Lineal,True
+96,8,Switzerland,Colombia,8-5,4.559893222038198,Victoria Switzerland,Regresion Lineal,True
+96,9,Switzerland,Colombia,6-7,3.899492886652823,Victoria Colombia,Regresion Lineal,True
+96,10,Switzerland,Colombia,7-5,2.594710403730285,Victoria Switzerland,Regresion Lineal,True

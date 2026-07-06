@@ -422,9 +422,12 @@ def cargar_fixtures():
                 fixtures["stage"].astype(str).str.lower().str.contains("group", na=False)
             ].copy()
     else:
-        raise FileNotFoundError(
-            "No existe fixtures_2026_group_stage.csv ni fixtures_2026.csv"
-        )
+        print()
+        print("AVISO:")
+        print("No existe fixtures_2026_group_stage.csv ni fixtures_2026.csv.")
+        print("Se omitira la creacion de data/fixtures_modelo.csv.")
+        print("Para octavos usa: python 09_actualizar_fixtures_modelo_eliminatorias.py")
+        return None
 
     fixtures.columns = fixtures.columns.str.strip().str.replace("\ufeff", "", regex=False)
 
@@ -530,15 +533,16 @@ def main():
 
     fixtures = cargar_fixtures()
 
-    construir_fixtures_modelo(
-        fixtures=fixtures,
-        historial=historial,
-        ranking_fifa=ranking_fifa,
-        ranking_elo=ranking_elo,
-        promedio_fifa=promedio_fifa,
-        promedio_elo=promedio_elo,
-        fecha_corte=fecha_corte
-    )
+    if fixtures is not None:
+        construir_fixtures_modelo(
+            fixtures=fixtures,
+            historial=historial,
+            ranking_fifa=ranking_fifa,
+            ranking_elo=ranking_elo,
+            promedio_fifa=promedio_fifa,
+            promedio_elo=promedio_elo,
+            fecha_corte=fecha_corte
+        )
 
     print()
     print("Proceso terminado correctamente.")

@@ -1,8 +1,8 @@
 date,home_team,away_team,neutral,match_id,match_no,stage,group,venue_city,competition,home_gf12,home_ga12,home_pts12,home_prev_matches,away_gf12,away_ga12,away_pts12,away_prev_matches,fifa_home,fifa_away,diff_fifa,elo_home,elo_away,diff_elo,h2h,home_advantage,home_score,away_score,pen_home,pen_away,source_note
-2026-07-04,Canada,Morocco,1,89,89,OCTAVOS,,,FIFA World Cup,16,7,18,12,25,7,26,12,1551.5,1755.62,-204.1199999999999,1767.0,1840.0,-73.0,-9,0,,,,,Pendiente / por predecir
-2026-07-04,Paraguay,France,1,90,90,OCTAVOS,,,FIFA World Cup,15,14,18,12,34,10,31,12,1488.05,1887.11,-399.05999999999995,1780.0,2063.0,-283.0,-9,0,,,,,Pendiente / por predecir
-2026-07-05,Brazil,Norway,1,91,91,OCTAVOS,,,FIFA World Cup,31,12,26,12,29,15,24,12,1765.34,1577.18,188.15999999999985,1978.0,1914.0,64.0,-6,0,,,,,Pendiente / por predecir
-2026-07-05,Mexico,England,1,92,92,OCTAVOS,,,FIFA World Cup,23,2,32,12,28,5,29,12,1700.9800000000002,1847.68,-146.69999999999982,1881.0,2024.0,-143.0,-9,0,,,,,Pendiente / por predecir
+2026-07-04,Canada,Morocco,1,89,89,OCTAVOS,,,FIFA World Cup,16,7,18,12,25,7,26,12,1551.5,1755.62,-204.1199999999999,1767.0,1840.0,-73.0,-9,0,0.0,3.0,,,Resultado actualizado al 2026-07-06
+2026-07-04,Paraguay,France,1,90,90,OCTAVOS,,,FIFA World Cup,15,14,18,12,34,10,31,12,1488.05,1887.11,-399.05999999999995,1780.0,2063.0,-283.0,-9,0,0.0,1.0,,,Resultado actualizado al 2026-07-06
+2026-07-05,Brazil,Norway,1,91,91,OCTAVOS,,,FIFA World Cup,31,12,26,12,29,15,24,12,1765.34,1577.18,188.15999999999985,1978.0,1914.0,64.0,-6,0,1.0,2.0,,,Resultado actualizado al 2026-07-06
+2026-07-05,Mexico,England,1,92,92,OCTAVOS,,,FIFA World Cup,23,2,32,12,28,5,29,12,1700.9800000000002,1847.68,-146.69999999999982,1881.0,2024.0,-143.0,-9,0,2.0,3.0,,,Resultado actualizado al 2026-07-06
 2026-07-06,Portugal,Spain,1,93,93,OCTAVOS,,,FIFA World Cup,29,11,27,12,27,4,28,12,1755.09,1856.03,-100.94000000000005,1989.0,2129.0,-140.0,-3,0,,,,,Pendiente / por predecir
 2026-07-06,United States,Belgium,1,94,94,OCTAVOS,,,FIFA World Cup,26,19,22,12,34,10,26,12,1688.53,1733.93,-45.40000000000009,1780.0,1879.0,-99.0,-15,0,,,,,Pendiente / por predecir
 2026-07-07,Argentina,Egypt,1,95,95,OCTAVOS,,,FIFA World Cup,32,4,33,12,18,10,20,12,1889.0600000000002,1570.67,318.3900000000001,2115.0,1711.0,404.0,6,0,,,,,Pendiente / por predecir
