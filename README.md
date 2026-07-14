@@ -12,7 +12,6 @@ El objetivo principal es simular los partidos de octavos de final, estimar posib
 - Miguel Angel Marreros Cortegana
 - Valentin Fernandez Campos
 - Frank Salon Trigoso
-- Maria Carmen Tuesta Chuquizuta
 
 ---
 
