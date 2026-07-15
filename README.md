@@ -535,26 +535,4 @@ venv\Scripts\activate
 | 15 | Argentina vs. Cape Verde | 3-2 | Argentina |
 | 16 | Colombia vs. Ghana | 1-0 | Colombia |
 
-
-# Clasificados de 16avos a octavos de final
-
-| N.º | Partido de 16avos | Resultado | Clasificado a octavos |
-|---:|---|:---:|---|
-| 1 | South Africa vs. Canada | 0-1 | Canada |
-| 2 | Brazil vs. Japan | 2-1 | Brazil |
-| 3 | Germany vs. Paraguay | 1-1 (3-4 en penales) | Paraguay |
-| 4 | Netherlands vs. Morocco | 1-1 (2-3 en penales) | Morocco |
-| 5 | Ivory Coast vs. Norway | 1-2 | Norway |
-| 6 | France vs. Sweden | 3-0 | France |
-| 7 | Mexico vs. Ecuador | 2-0 | Mexico |
-| 8 | England vs. DR Congo | 2-1 | England |
-| 9 | Belgium vs. Senegal | 3-2 | Belgium |
-| 10 | United States vs. Bosnia and Herzegovina | 2-0 | United States |
-| 11 | Spain vs. Austria | 3-0 | Spain |
-| 12 | Portugal vs. Croatia | 2-1 | Portugal |
-| 13 | Switzerland vs. Algeria | 2-0 | Switzerland |
-| 14 | Australia vs. Egypt | 1-1 (2-4 en penales) | Egypt |
-| 15 | Argentina vs. Cape Verde | 3-2 | Argentina |
-| 16 | Colombia vs. Ghana | 1-0 | Colombia |
-
 <img width="1354" height="323" alt="image" src="https://github.com/user-attachments/assets/5f340536-9eb0-46a4-b3fe-483cf5ed8fe7" />
